@@ -15,11 +15,11 @@ interface SEOHeadProps {
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
-    title = 'Lujan landscaping – Professional Landscaping Services in Denver, CO',
-    description = 'Expert landscaping services in Denver, CO. We install plants, sod, mulch, rock, irrigation, and concrete. Serving Central Westminster, East Aurora, and surrounding areas. ✓ Free Consultation ✓ Quality Work ✓ Reliable Service. Call 720-530-3933!',
-    keywords = 'landscaping Denver, landscape company Denver CO, plant installation Denver, sod installation Westminster, mulch services Aurora, irrigation systems Denver, concrete work Colorado, landscaping Westminster CO',
+    title = 'Beni Garten und Grünanlagenpflege – Professioneller Garten- und Landschaftsbau in Ulm',
+    description = 'Experten für Garten- und Landschaftsbau in Ulm und Umgebung. Wir bieten Pflasterarbeiten, Rasenverlegung, Pflanzungen, Baumpflege und vieles mehr. ✓ Kostenlose Beratung ✓ Hochwertige Arbeit ✓ Zuverlässiger Service. Rufen Sie uns an: +49 174 8023038!',
+    keywords = 'Gartenbau Ulm, Landschaftsbau Ulm Umgebung, Pflasterarbeiten, Rasenverlegung Neu-Ulm, Baumpflege, Gartenpflege Ulm, Terrassenbau, Zaunbau',
     canonical,
-    ogImage = 'https://lujanlandscaping.com/images/logo.png',
+    ogImage = 'https://beni-garten.de/images/default-og.png',
     schema,
     noindex = false,
     articleDate,
@@ -27,7 +27,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     articleAuthor
 }) => {
     const location = useLocation();
-    const baseUrl = 'https://lujanlandscaping.com';
+    const baseUrl = 'https://beni-garten.de'; // TODO: Update to the real domain when known
     const fullUrl = canonical || `${baseUrl}${location.pathname}`;
 
     useEffect(() => {
@@ -75,17 +75,17 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         updateMetaTag('og:url', fullUrl, true);
         updateMetaTag('og:image', ogImage, true);
         updateMetaTag('og:type', articleDate ? 'article' : 'website', true);
-        updateMetaTag('og:locale', 'en_US', true);
-        updateMetaTag('og:site_name', 'Lujan landscaping', true);
+        updateMetaTag('og:locale', 'de_DE', true);
+        updateMetaTag('og:site_name', 'Beni Garten und Grünanlagenpflege', true);
         updateMetaTag('og:image:width', '1200', true);
         updateMetaTag('og:image:height', '630', true);
-        updateMetaTag('og:image:alt', 'Lujan landscaping - Professional Landscaping in Denver, CO', true);
+        updateMetaTag('og:image:alt', 'Beni Garten und Grünanlagenpflege - Professioneller Garten- und Landschaftsbau in Ulm', true);
 
         // Article-specific Open Graph tags
         if (articleDate) {
             updateMetaTag('article:published_time', articleDate, true);
-            updateMetaTag('article:author', articleAuthor || 'Lujan Landscaping Team', true);
-            updateMetaTag('article:section', 'Landscaping', true);
+            updateMetaTag('article:author', articleAuthor || 'Beni Garten Team', true);
+            updateMetaTag('article:section', 'Gartenbau', true);
             if (articleModified) {
                 updateMetaTag('article:modified_time', articleModified, true);
             }
@@ -101,14 +101,14 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         updateMetaTag('twitter:title', title);
         updateMetaTag('twitter:description', description);
         updateMetaTag('twitter:image', ogImage);
-        updateMetaTag('twitter:site', '@lujanlandscaping');
-        updateMetaTag('twitter:creator', '@lujanlandscaping');
+        updateMetaTag('twitter:site', '@benigarten');
+        updateMetaTag('twitter:creator', '@benigarten');
 
         // Geo tags (for local SEO)
-        updateMetaTag('geo.region', 'US-CO');
-        updateMetaTag('geo.placename', 'Denver, Colorado');
-        updateMetaTag('geo.position', '39.7392;-104.9903');
-        updateMetaTag('ICBM', '39.7392, -104.9903');
+        updateMetaTag('geo.region', 'DE-BW');
+        updateMetaTag('geo.placename', 'Ulm, Baden-Württemberg');
+        updateMetaTag('geo.position', '48.3968;9.9145');
+        updateMetaTag('ICBM', '48.3968, 9.9145');
 
         // Update canonical link
         let canonicalLink = document.querySelector('link[rel="canonical"]');

@@ -1,8 +1,9 @@
 {
-  "name": "Lujan landscaping",
+  "name": "Beni Garten und Grünanlagenpflege",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Bassem03.github.io/Beni-Garten/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

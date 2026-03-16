@@ -5,43 +5,43 @@ export const GardenerSchema: React.FC = () => {
     const schema = {
         "@context": "https://schema.org",
         "@type": "Gardener",
-        "@id": "https://lujanlandscaping.com/#gardener",
-        "name": "Lujan landscaping",
-        "description": "Professional landscaping services specialized in pavers, concrete, mulch, and plant installation in Denver, Westminster, and Aurora",
+        "@id": "https://beni-garten.de/#gardener",
+        "name": "Beni Garten und Grünanlagenpflege",
+        "description": "Professioneller Garten- und Landschaftsbau in Ulm und Umgebung",
         "founder": {
             "@type": "Person",
-            "name": "Lujan Landscaping Team"
+            "name": "Beni Garten Team"
         },
         "areaServed": [
             {
                 "@type": "City",
-                "name": "Denver"
+                "name": "Ulm"
             },
             {
                 "@type": "City",
-                "name": "Westminster"
+                "name": "Neu-Ulm"
             },
             {
                 "@type": "City",
-                "name": "Aurora"
+                "name": "Blaustein"
             },
             {
                 "@type": "City",
-                "name": "Thornton"
+                "name": "Senden"
             }
         ],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
-            "name": "Landscaping & Concrete Services",
+            "name": "Garten- und Landschaftsbau Dienstleistungen",
             "itemListElement": [
                 {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Hardscaping & Pavers",
-                        "description": "Professional installation of pavers and hardscaping for outdoor living spaces",
+                        "name": "Pflasterarbeiten",
+                        "description": "Professionelle Pflasterarbeiten",
                         "provider": {
-                            "@id": "https://lujanlandscaping.com/#organization"
+                            "@id": "https://beni-garten.de/#organization"
                         },
                         "category": "Hardscaping"
                     }
@@ -50,20 +50,20 @@ export const GardenerSchema: React.FC = () => {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Concrete Installation",
-                        "description": "Durable concrete for patios, walkways, and driveways",
+                        "name": "Mauer- und Terrassenbau",
+                        "description": "Bau von stabilen Mauern und schönen Terrassen",
                         "provider": {
-                            "@id": "https://lujanlandscaping.com/#organization"
+                            "@id": "https://beni-garten.de/#organization"
                         },
-                        "category": "Concrete"
+                        "category": "Hardscaping"
                     }
                 },
                 {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Garden Maintenance",
-                        "description": "Mowing, trimming, weeding, and seasonal clean-ups",
+                        "name": "Gartenpflege",
+                        "description": "Regelmäßiges Rasenmähen, Reinigung, Düngen und Pflegearbeiten",
                         "category": "Maintenance"
                     }
                 },
@@ -71,19 +71,19 @@ export const GardenerSchema: React.FC = () => {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Tree & Plant Services",
-                        "description": "Installation, trimming, and removal of trees and shrubs",
+                        "name": "Baumpflege",
+                        "description": "Komplette Baumpflege- und Fällarbeiten",
                         "category": "Landscaping"
                     }
                 }
             ]
         },
-        "url": "https://lujanlandscaping.com/",
-        "telephone": "+17205303933",
-        "email": "lujanlandscapingllc@gmail.com",
+        "url": "https://beni-garten.de/",
+        "telephone": "+491748023038",
+        "email": "beni-garten@gmail.com",
         "priceRange": "$$",
-        "paymentAccepted": "Cash, Check, Digital Payment",
-        "currenciesAccepted": "USD"
+        "paymentAccepted": "Bar, Überweisung",
+        "currenciesAccepted": "EUR"
     };
 
     return (

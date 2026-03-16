@@ -9,10 +9,10 @@ interface PersonSchemaProps {
 }
 
 export const PersonSchema: React.FC<PersonSchemaProps> = ({
-    name = "Lujan Landscaping Team",
-    jobTitle = "Landscaping Specialists",
-    telephone = "+17205303933",
-    email = "lujanlandscapingllc@gmail.com"
+    name = "Beni Garten Team",
+    jobTitle = "Landschaftsgärtner",
+    telephone = "+491748023038",
+    email = "beni-garten@gmail.com"
 }) => {
     const schema = {
         "@context": "https://schema.org",
@@ -20,30 +20,29 @@ export const PersonSchema: React.FC<PersonSchemaProps> = ({
         "name": name,
         "jobTitle": jobTitle,
         "worksFor": {
-            "@id": "https://lujanlandscaping.com/#organization"
+            "@id": "https://beni-garten.de/#organization"
         },
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Martin Luther King Jr. Blvd",
-            "addressLocality": "Denver",
-            "postalCode": "80205",
-            "addressRegion": "CO",
-            "addressCountry": "US"
+            "streetAddress": "Schlehenbühl",
+            "addressLocality": "Ulm",
+            "postalCode": "89075",
+            "addressRegion": "BW",
+            "addressCountry": "DE"
         },
         "telephone": telephone,
         "email": email,
         "sameAs": [
-            "https://www.facebook.com/profile.php?id=61579944943986"
+            "https://www.facebook.com/profile.php?id=61579944943986" // TODO: Update to real profile when known
         ],
         "knowsAbout": [
-            "Landscaping",
-            "Hardscaping",
-            "Pavers",
-            "Concrete",
-            "Tree Trimming",
-            "Irrigation",
-            "Fencing",
-            "Garden Maintenance"
+            "Gartenbau",
+            "Landschaftsbau",
+            "Pflasterarbeiten",
+            "Rasenpflege",
+            "Baumpflege",
+            "Terrassenbau",
+            "Gartenpflege"
         ]
     };
 

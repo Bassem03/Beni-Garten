@@ -12,13 +12,13 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2">
               <Leaf className="text-gold-500 h-8 w-8" />
               <div>
-                <span className="block text-xl font-bold text-white font-serif">Lujan landscaping</span>
-                <span className="block text-xs text-gray-400">Professional Landscaping Services</span>
-                <span className="block text-[0.6rem] tracking-[0.4em] text-gold-500 uppercase">Denver, CO</span>
+                <span className="block text-xl font-bold text-white font-serif">Beni Garten und Grünanlagenpflege</span>
+                <span className="block text-xs text-gray-400">Garten- & Landschaftsbau</span>
+                <span className="block text-[0.6rem] tracking-[0.4em] text-gold-500 uppercase">Ulm, Deutschland</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed font-light">
-              Creating beautiful and sustainable outdoor spaces with quality landscaping services for Denver and surrounding areas.
+              Wir gestalten wunderschöne und nachhaltige Außenanlagen mit hochwertigen Leistungen für Ulm und Umgebung.
             </p>
           </div>
 
@@ -26,51 +26,51 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif mb-6 text-gold-500">Navigation</h3>
             <ul className="space-y-3 text-gray-300 text-sm tracking-wide">
-              <li><Link to="/" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Home</Link></li>
-              <li><Link to="/services" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Services</Link></li>
-              <li><Link to="/projects" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Projects</Link></li>
-              <li><Link to="/about" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>About</Link></li>
-              <li><Link to="/contact" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Contact</Link></li>
+              <li><Link to="/" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Startseite</Link></li>
+              <li><Link to="/services" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Dienstleistungen</Link></li>
+              <li><Link to="/projects" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Projekte</Link></li>
+              <li><Link to="/about" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Über Uns</Link></li>
+              <li><Link to="/contact" className="hover:text-gold-500 transition-colors flex items-center"><span className="w-1 h-1 bg-gold-500 rounded-full mr-2"></span>Kontakt</Link></li>
             </ul>
           </div>
 
           {/* Kontaktinformationen */}
           <div>
-            <h3 className="text-lg font-serif mb-6 text-gold-500">Contact</h3>
+            <h3 className="text-lg font-serif mb-6 text-gold-500">Kontakt</h3>
             <ul className="space-y-4 text-gray-300 text-sm">
               <li className="flex items-start group">
                 <MapPin size={18} className="mr-3 mt-0.5 shrink-0 text-gray-500 group-hover:text-gold-500 transition-colors" />
-                <span>Martin Luther King Jr. Blvd, Denver, CO 80205</span>
+                <span>Schlehenbühl, 89075 Ulm, Deutschland</span>
               </li>
               <li className="flex items-center group">
                 <Phone size={18} className="mr-3 shrink-0 text-gray-500 group-hover:text-gold-500 transition-colors" />
-                <span>+1 720-530-3933</span>
+                <span>+49 174 8023038</span>
               </li>
               <li className="flex items-center group">
                 <Mail size={18} className="mr-3 shrink-0 text-gray-500 group-hover:text-gold-500 transition-colors" />
-                <span>lujanlandscapingllc@gmail.com</span>
+                <span>beni-garten@gmail.com</span>
               </li>
             </ul>
           </div>
 
           {/* Newsletter / Sozial */}
           <div>
-            <h3 className="text-lg font-serif mb-6 text-gold-500">Stay Connected</h3>
-            <p className="text-xs text-gray-500 mb-4">Subscribe to our newsletter</p>
+            <h3 className="text-lg font-serif mb-6 text-gold-500">Bleiben Sie in Verbindung</h3>
+            <p className="text-xs text-gray-500 mb-4">Abonnieren Sie unseren Newsletter</p>
             <div className="flex mb-6">
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder="Ihre E-Mail Adresse"
                 className="bg-white/5 border-b border-white/20 p-2 w-full text-sm outline-none focus:border-gold-500 transition-colors"
               />
               <button className="text-gold-500 hover:text-white border-b border-gold-500 hover:border-white px-2 transition-all uppercase text-xs font-bold">
-                Subscribe
+                Abonnieren
               </button>
             </div>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/profile.php?id=61579944943986"
-                target="_blank"
+                href=""
+                target="_parent"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-gold-500 hover:border-gold-500 hover:text-earth-900 transition-all"
               >
@@ -83,10 +83,10 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/5 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-          <p>&copy; {new Date().getFullYear()} Lujan landscaping. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Beni Garten und Grünanlagenpflege. Alle Rechte vorbehalten.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Datenschutzrichtlinie</a>
+            <a href="#" className="hover:text-white transition-colors">Nutzungsbedingungen</a>
           </div>
         </div>
       </div>

@@ -24,12 +24,12 @@ const Navbar: React.FC = () => {
   const hoverColor = 'text-gold-500';
 
   const navLinks = [
-    { name: 'Home', path: NavigationLinks.HOME },
-    { name: 'Services', path: NavigationLinks.SERVICES },
-    { name: 'Projects', path: NavigationLinks.PROJECTS },
-    { name: 'Gallery', path: NavigationLinks.GALLERY },
-    { name: 'About', path: NavigationLinks.ABOUT },
-    { name: 'Contact', path: NavigationLinks.CONTACT },
+    { name: 'Startseite', path: NavigationLinks.HOME },
+    { name: 'Dienstleistungen', path: NavigationLinks.SERVICES },
+    { name: 'Projekte', path: NavigationLinks.PROJECTS },
+    { name: 'Galerie', path: NavigationLinks.GALLERY },
+    { name: 'Über Uns', path: NavigationLinks.ABOUT },
+    { name: 'Kontakt', path: NavigationLinks.CONTACT },
   ];
 
   return (
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
               <div className={`flex items-center ${logoColor} group-hover:${hoverColor} transition-colors`}>
                 <Leaf className="h-8 w-8 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-lg font-serif font-bold leading-none">Lujan landscaping</span>
+                  <span className="text-lg font-serif font-bold leading-none">Beni Garten und Grünanlagenpflege</span>
                 </div>
               </div>
             </Link>
@@ -63,11 +63,11 @@ const Navbar: React.FC = () => {
 
             {/* Kontakt - Desktop */}
             <div className="hidden md:flex items-center space-x-4 lg:space-x-6 pl-4 lg:pl-8 lg:border-l lg:border-white/20">
-              <a href="tel:+17205303933" className="flex items-center text-gold-500 hover:text-white transition-colors group">
+              <a href="tel:+491748023038" className="flex items-center text-gold-500 hover:text-white transition-colors group">
                 <div className="w-8 h-8 rounded-full border border-gold-500 flex items-center justify-center mr-3 group-hover:bg-gold-500 group-hover:text-earth-900 transition-all">
                   <Phone size={14} />
                 </div>
-                <span className={`text-sm font-bold tracking-wide ${textColor} group-hover:text-gold-500 transition-colors`}>+1 720-530-3933
+                <span className={`text-sm font-bold tracking-wide ${textColor} group-hover:text-gold-500 transition-colors`}>+49 174 802 3038
 
                 </span>
               </a>
@@ -97,12 +97,12 @@ const Navbar: React.FC = () => {
             ))}
 
             <div className="mt-12 flex flex-col items-center space-y-4 border-t border-white/10 pt-12 w-48">
-              <a href="mailto:lujanlandscapingllc@gmail.com" className="flex flex-col items-center text-gold-500">
-                <span className="text-xl font-serif text-white">lujanlandscapingllc@gmail.com</span>
+              <a href="mailto:beni-garten@gmail.com" className="flex flex-col items-center text-gold-500">
+                <span className="text-xl font-serif text-white">beni-garten@gmail.com</span>
               </a>
-              <a href="tel:+17205303933" className="flex flex-col items-center text-gold-500">
+              <a href="tel:+491748023038" className="flex flex-col items-center text-gold-500">
                 <Phone size={32} className="mb-2" />
-                <span className="text-xl font-serif text-white">+1 720-530-3933</span>
+                <span className="text-xl font-serif text-white">+49 174 802 3038</span>
               </a>
             </div>
           </div>

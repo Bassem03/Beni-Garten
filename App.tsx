@@ -35,7 +35,6 @@ import img19 from './images/19.webp';
 
 
 import img21 from './images/arrows.png';
-import img22 from './images/grasshero2.png';
 import img23 from './images/beautifully-maintained-green-lawn.jpg';
 import img24 from './images/L.png';
 import img25 from './images/logo_white.jpg';
@@ -141,22 +140,22 @@ const BeforeAfterSlider: React.FC<{ beforeImage: string | Record<string, unknown
 const blogPosts: BlogPost[] = [
   {
     id: '1',
-    slug: 'zaunbau-kuppenheim-ratgeber',
-    title: 'Zaunbau in Kuppenheim: Sicherheit & Ästhetik für Ihren Garten',
-    excerpt: 'Planen Sie einen neuen Zaun in Kuppenheim oder Rastatt? Unser umfassender Ratgeber zu Doppelstabmattenzäunen, Sichtschutzlösungen und modernen Zaunsystemen hilft Ihnen bei der richtigen Entscheidung. Erfahren Sie alles über Kosten, Materialien und fachgerechte Montage in Baden-Württemberg.',
+    slug: 'zaunbau-ulm-ratgeber',
+    title: 'Zaunbau in Ulm: Sicherheit & Ästhetik für Ihren Garten',
+    excerpt: 'Planen Sie einen neuen Zaun in Ulm oder Neu-Ulm? Unser umfassender Ratgeber zu Doppelstabmattenzäunen, Sichtschutzlösungen und modernen Zaunsystemen hilft Ihnen bei der richtigen Entscheidung. Erfahren Sie alles über Kosten, Materialien und fachgerechte Montage in der Region.',
     date: '2024-03-15',
     image: img3,
     story: [
-      'Ein Zaun macht mehr als Grundstücksgrenzen sichtbar – er schützt, verschönert und wertet Ihr Grundstück auf. Als erfahrener Partner für Zaunbau in Kuppenheim und Umgebung wissen wir, worauf es ankommt. Ob Doppelstabmattenzaun, Maschendrahtzaun oder exklusive Gabionenwand – die richtige Wahl hängt von Ihren individuellen Anforderungen, dem Budget und den örtlichen Gegebenheiten ab.',
-      'In den Neubaugebieten von Kuppenheim und Rastatt sehen wir einen klaren Trend: Moderne Doppelstabmattenzäune in Anthrazit RAL 7016 oder Moosgrün sind besonders beliebt. Sie sind langlebig, pflegeleicht und bieten ein hervorragendes Preis-Leistungs-Verhältnis. Die Qualitätsunterschiede liegen vor allem in der Drahtstärke: Ein 8/6/8 Doppelstabmattenzaun (8mm horizontale Drähte, 6mm vertikale Drähte) ist deutlich stabiler als die Standard-Variante 6/5/6 und eignet sich besonders für höhere Zäune ab 1,60 Meter oder windexponierte Lagen.',
+      'Ein Zaun macht mehr als Grundstücksgrenzen sichtbar – er schützt, verschönert und wertet Ihr Grundstück auf. Als erfahrener Partner für Zaunbau in Ulm und Umgebung wissen wir, worauf es ankommt. Ob Doppelstabmattenzaun, Maschendrahtzaun oder exklusive Gabionenwand – die richtige Wahl hängt von Ihren individuellen Anforderungen, dem Budget und den örtlichen Gegebenheiten ab.',
+      'In den Neubaugebieten von Ulm und Neu-Ulm sehen wir einen klaren Trend: Moderne Doppelstabmattenzäune in Anthrazit RAL 7016 oder Moosgrün sind besonders beliebt. Sie sind langlebig, pflegeleicht und bieten ein hervorragendes Preis-Leistungs-Verhältnis. Die Qualitätsunterschiede liegen vor allem in der Drahtstärke: Ein 8/6/8 Doppelstabmattenzaun (8mm horizontale Drähte, 6mm vertikale Drähte) ist deutlich stabiler als die Standard-Variante 6/5/6 und eignet sich besonders für höhere Zäune ab 1,60 Meter oder windexponierte Lagen.',
       'Bei der Oberflächenbehandlung empfehlen wir feuerverzinkte und pulverbeschichtete Zäune für maximale Langlebigkeit. Diese Kombination schützt vor Rost und Witterungseinflüssen über Jahrzehnte hinweg. Rein verzinkte Zäune sind günstiger, entwickeln aber mit der Zeit eine charakteristische Patina. Für Sichtschutz lassen sich Doppelstabmatten hervorragend mit PVC-Sichtschutzstreifen in verschiedenen Farben oder mit Holzelementen kombinieren.',
-      'Die Kosten für einen Doppelstabmattenzaun in Kuppenheim liegen je nach Höhe, Qualität und Bodenbeschaffenheit zwischen 50€ und 120€ pro laufendem Meter inklusive fachgerechter Montage. Gabionenzäune beginnen bei etwa 80€ pro Meter, während hochwertige Holzsichtschutzzäune aus Lärche oder WPC zwischen 100€ und 180€ pro Meter kosten. Diese Preise beinhalten bereits die Pfosten, Betonfundamente und die komplette Installation durch unser erfahrenes Team.',
-      'Unser Team von Lujan landscaping berät Sie nicht nur zur Materialwahl, sondern übernimmt auch die fachgerechte Montage. Von der Fundamentierung mit frostsicheren Betonfundamenten (mindestens 80cm Tiefe) bis zum letzten Handgriff sorgen wir dafür, dass Ihr Zaun jahrzehntelang sicher steht – auch bei badischem Wind und Wetter. Wir kennen die lokalen Bauvorschriften in Kuppenheim, Rastatt und Baden-Baden und beraten Sie zu Grenzabständen und maximalen Zaunhöhen gemäß der Landesbauordnung Baden-Württemberg.'
+      'Die Kosten für einen Doppelstabmattenzaun liegen je nach Höhe, Qualität und Bodenbeschaffenheit zwischen 50€ und 120€ pro laufendem Meter. Gabionenzäune beginnen bei etwa 80€ pro Meter. Diese Preise beinhalten bereits die Pfosten, Betonfundamente und die komplette Installation durch unser erfahrenes Team.',
+      'Unser Team von Beni Garten und Grünanlagenpflege berät Sie nicht nur zur Materialwahl, sondern übernimmt auch die fachgerechte Montage. Von der Fundamentierung mit frostsicheren Betonfundamenten bis zum letzten Handgriff sorgen wir dafür, dass Ihr Zaun sicher steht.'
     ],
     tips: [
       {
         title: 'Rechtliche Vorgaben beachten',
-        description: 'Informieren Sie sich vor Baubeginn über den Bebauungsplan in Kuppenheim. Maximale Höhen und Abstände zum Nachbarn sind oft geregelt.'
+        description: 'Informieren Sie sich vor Baubeginn über den Bebauungsplan in Ulm. Maximale Höhen und Abstände zum Nachbarn sind oft geregelt.'
       },
       {
         title: 'Fundament ist alles',
@@ -169,27 +168,27 @@ const blogPosts: BlogPost[] = [
     ],
     qa: [
       {
-        question: 'Bauen Sie auch Zäune in Rastatt und Baden-Baden?',
-        answer: 'Ja, unser Einzugsgebiet umfasst Kuppenheim, Rastatt, Baden-Baden, Gaggenau und den gesamten Landkreis Karlsruhe.'
+        question: 'Bauen Sie auch Zäune in Neu-Ulm und Blaustein?',
+        answer: 'Ja, unser Einzugsgebiet umfasst Ulm, Neu-Ulm, Blaustein, Senden und den gesamten Landkreis Dornstadt.'
       },
       {
         question: 'Wie lange dauert eine Zaunmontage?',
-        answer: 'Für einen durchschnittlichen Garten in Kuppenheim benötigen wir etwa 2-3 Tage inklusive Beton-Aushärtung.'
+        answer: 'Für einen durchschnittlichen Garten in Ulm benötigen wir etwa 2-3 Tage inklusive Beton-Aushärtung.'
       }
     ]
   },
   {
     id: '2',
     slug: 'gartenpflege-landschaftsbau-jahresplan',
-    title: 'Gartenpflege & Landschaftsbau: Ihr Jahresplan für Kuppenheim',
-    excerpt: 'Wann ist die beste Zeit für den Heckenschnitt? Wie pflegen Sie Ihren Rasen im Rheintal optimal? Entdecken Sie unseren saisonalen Jahresplan für Gartenpflege in Kuppenheim mit Profi-Tipps zu Vertikutieren, Düngen, Rollrasen verlegen und Winterdienst von Ihrem erfahrenen Gärtner vor Ort.',
+    title: 'Gartenpflege & Landschaftsbau: Ihr Jahresplan für Ulm',
+    excerpt: 'Wann ist die beste Zeit für den Heckenschnitt? Wie pflegen Sie Ihren Rasen im Rheintal optimal? Entdecken Sie unseren saisonalen Jahresplan für Gartenpflege in Ulm mit Profi-Tipps zu Vertikutieren, Düngen, Rollrasen verlegen und Winterdienst von Ihrem erfahrenen Gärtner vor Ort.',
     date: '2024-04-02',
     image: grassImg,
     story: [
-      'Ein schöner Garten macht Arbeit – oder er wird von Lujan landscaping gepflegt. Das milde Klima in der Rheinebene rund um Kuppenheim begünstigt üppiges Wachstum, erfordert aber auch regelmäßige, fachgerechte Pflege. Unser Gartenpflege-Jahresabo sorgt dafür, dass Ihr Garten zu jeder Jahreszeit perfekt aussieht – ohne dass Sie selbst Hand anlegen müssen.',
-      'Besonders im Frühjahr steht viel an: Der Rasen muss vertikutiert und gedüngt werden, um Moos zu verdrängen und kräftiges Wurzelwachstum zu fördern. Wir verwenden speziellen Langzeitdünger mit Eisen-Anteil für sattes Grün bis in den Herbst. Hecken benötigen einen Formschnitt, bevor die Brutzeit der Vögel beginnt (Bundesnaturschutzgesetz beachten!). Thuja, Kirschlorbeer und Liguster schneiden wir fachgerecht zurück, damit sie dicht und gesund nachwachsen. In Rastatt und Umgebung übernehmen wir diese Frühjahrsarbeiten gerne für Sie.',
+      'Ein schöner Garten macht Arbeit – oder er wird von Beni Garten und Grünanlagenpflege gepflegt. Das Klima in unserer Region begünstigt üppiges Wachstum, erfordert aber auch regelmäßige, fachgerechte Pflege. Unser Gartenpflege-Abo sorgt dafür, dass Ihr Garten zu jeder Jahreszeit perfekt aussieht.',
+      'Besonders im Frühjahr steht viel an: Der Rasen muss vertikutiert und gedüngt werden, um Moos zu verdrängen und kräftiges Wurzelwachstum zu fördern. Wir verwenden speziellen Langzeitdünger mit Eisen-Anteil für sattes Grün bis in den Herbst. Hecken benötigen einen Formschnitt, bevor die Brutzeit der Vögel beginnt.',
       'Im Sommer liegt der Fokus auf regelmäßigem Rasenmähen (alle 7-10 Tage bei optimaler Wuchshöhe von 4-5cm), Bewässerung und Unkrautbekämpfung. Wir bieten auch Rollrasen-Verlegung an – ideal für schnelle Ergebnisse bei Neuanlagen oder kahlen Stellen. Der Herbst ist die perfekte Zeit für Pflanzarbeiten, Bodenverbesserung und das letzte Vertikutieren vor dem Winter. Laub entfernen wir gründlich von Rasenflächen, um Faulstellen zu vermeiden.',
-      'Auch die Gehwegreinigung und Terrassenpflege gehört zu unserem Repertoire. Mit professionellen Hochdruckreinigern (bis 200 bar) befreien wir Ihre Pflastersteine, Terrassenplatten und Einfahrten von Algen, Moos und hartnäckigem Schmutz, sodass alles wie neu aussieht. Auf Wunsch versiegeln wir die Flächen anschließend, um langfristigen Schutz zu gewährleisten. Viele unserer Kunden in Kuppenheim und Baden-Baden nutzen unser "Sorglos-Paket" – ein Jahresvertrag für regelmäßige Gartenpflege zu planbaren Kosten.'
+      'Auch die Gehwegreinigung und Terrassenpflege gehört zu unserem Repertoire. Mit professionellen Hochdruckreinigern (bis 200 bar) befreien wir Ihre Pflastersteine, Terrassenplatten und Einfahrten von Algen, Moos und hartnäckigem Schmutz, sodass alles wie neu aussieht. Auf Wunsch versiegeln wir die Flächen anschließend, um langfristigen Schutz zu gewährleisten. Viele unserer Kunden in Ulm und Blaustein nutzen unser "Sorglos-Paket" – ein Jahresvertrag für regelmäßige Gartenpflege zu planbaren Kosten.'
     ],
     tips: [
       {
@@ -204,7 +203,7 @@ const blogPosts: BlogPost[] = [
     qa: [
       {
         question: 'Bieten Sie auch Dauerpflege an?',
-        answer: 'Absolut. Viele Kunden in Kuppenheim nutzen unser "Sorglos-Paket" für regelmäßiges Rasenmähen und Heckenpflege.'
+        answer: 'Absolut. Viele Kunden in Ulm nutzen unser "Sorglos-Paket" für regelmäßiges Rasenmähen und Heckenpflege.'
       },
       {
         question: 'Entsorgen Sie den Grünschnitt?',
@@ -216,14 +215,14 @@ const blogPosts: BlogPost[] = [
     id: '3',
     slug: 'pflasterarbeiten-terrassenbau-baden',
     title: 'Pflasterarbeiten & Terrassenbau: Gestalten Sie Ihr Outdoor-Wohnzimmer',
-    excerpt: 'Ob Naturstein-Terrasse oder gepflasterte Einfahrt – wir setzen Ihre Träume in Stein um. Entdecken Sie hochwertige Pflasterarbeiten und Terrassenbau in Kuppenheim mit Granit, Basalt, Sandstein, Betonpflaster und modernen Keramikplatten. Professionelle Verlegung mit perfektem Gefälle und dauerhafter Drainage.',
+    excerpt: 'Ob Naturstein-Terrasse oder gepflasterte Einfahrt – wir setzen Ihre Träume in Stein um. Entdecken Sie hochwertige Pflasterarbeiten und Terrassenbau in Ulm mit Granit, Basalt, Sandstein, Betonpflaster und modernen Keramikplatten. Professionelle Verlegung mit perfektem Gefälle und dauerhafter Drainage.',
     date: '2024-05-10',
     image: img2,
     story: [
-      'Die Terrasse ist im Sommer das zweite Wohnzimmer. Egal ob Sie Naturstein wie Granit oder Basalt, Betonwerkstein oder moderne Keramikplatten bevorzugen – wir verlegen Ihren Traumboden in Kuppenheim fachgerecht und dauerhaft. Die Materialwahl hängt von Ihrem Budget, der gewünschten Optik und der späteren Nutzung ab. Natursteine wie Sandstein oder Travertin strahlen mediterrane Wärme aus, während anthrazitfarbene Betonpflaster modern und pflegeleicht sind.',
+      'Die Terrasse ist im Sommer das zweite Wohnzimmer. Egal ob Sie Naturstein wie Granit oder Basalt, Betonwerkstein oder moderne Keramikplatten bevorzugen – wir verlegen Ihren Traumboden in Ulm fachgerecht und dauerhaft. Die Materialwahl hängt von Ihrem Budget, der gewünschten Optik und der späteren Nutzung ab. Natursteine wie Sandstein oder Travertin strahlen mediterrane Wärme aus, während anthrazitfarbene Betonpflaster modern und pflegeleicht sind.',
       'Bei Pflasterarbeiten für Einfahrten achten wir besonders auf den Unterbau. In unserer Region kann der Boden stark variieren – von lehmigen Böden bis zu sandigem Untergrund. Daher ist eine solide Schottertragschicht (mindestens 30cm bei befahrbaren Flächen) essenziell, um Absackungen und Frostschäden zu vermeiden. Wir verwenden frostsicheren Schotter der Körnung 0/32 oder 0/45, verdichten diesen lagenweise mit einer Rüttelplatte und bringen darauf ein 3-5cm starkes Pflasterbett aus Brechsand oder Splitt auf.',
       'Das richtige Gefälle ist entscheidend für die Entwässerung: Terrassen benötigen mindestens 2% Gefälle vom Haus weg, Einfahrten sollten zur Straße oder zu Entwässerungsrinnen hin abfallen. Wir setzen Randsteine fachgerecht in Beton, damit die Pflasterfläche dauerhaft stabil bleibt. Nach dem Verlegen wird die Fläche gerüttelt und mit feinem Fugensand eingekehrt – alternativ bieten wir auch Fugenverguss mit Harz an, der Unkrautwuchs dauerhaft verhindert.',
-      'Die Kosten für Pflasterarbeiten in Kuppenheim und Rastatt liegen je nach Material zwischen 40€ und 120€ pro Quadratmeter inklusive Unterbau und Verlegung. Einfache Betonpflastersteine beginnen bei 40-60€/m², während hochwertige Natursteinplatten aus Granit oder Basalt 80-120€/m² kosten. Großformatige Terrassenplatten (60x60cm oder 80x80cm) liegen preislich dazwischen. Wir sanieren auch alte Pflasterflächen, bessern Absackungen aus und bringen sie wieder auf Vordermann.',
+      'Die Kosten für Pflasterarbeiten in Ulm und Neu-Ulm liegen je nach Material zwischen 40€ und 120€ pro Quadratmeter inklusive Unterbau und Verlegung. Einfache Betonpflastersteine beginnen bei 40-60€/m², während hochwertige Natursteinplatten aus Granit oder Basalt 80-120€/m² kosten. Großformatige Terrassenplatten (60x60cm oder 80x80cm) liegen preislich dazwischen. Wir sanieren auch alte Pflasterflächen, bessern Absackungen aus und bringen sie wieder auf Vordermann.',
       'Lassen Sie sich von uns beraten, welche Steine am besten zu Ihrem Hausstil passen. Von mediterranem Flair mit Travertin-Platten bis zu modernem Minimalismus mit anthrazitfarbenen Betonsteinen setzen wir Ihre Wünsche in Stein um. Auch Kombinationen aus verschiedenen Materialien – etwa Pflaster mit Naturstein-Einfassungen – realisieren wir gerne.'
     ],
     tips: [
@@ -243,19 +242,19 @@ const blogPosts: BlogPost[] = [
       },
       {
         question: 'Wie schnell bekomme ich einen Termin?',
-        answer: 'Rufen Sie uns an! Wir versuchen, Besichtigungen in Kuppenheim und Rastatt kurzfristig zu ermöglichen.'
+        answer: 'Rufen Sie uns an! Wir versuchen, Besichtigungen in Ulm und Neu-Ulm kurzfristig zu ermöglichen.'
       }
     ]
   },
   {
     id: '4',
     slug: 'sichtschutz-und-privatsphaere',
-    title: 'Der Garten als Rückzugsort: Sichtschutz & Privatsphäre in Kuppenheim',
-    excerpt: 'Entdecken Sie, wie wir einen modernen Garten mit schwarzem Sichtschutz, perfektem Rasen und stimmungsvoller Beleuchtung in eine private Wohlfühloase verwandelten. Erfahren Sie alles über Sichtschutzzaun-Höhen, Materialien (WPC, Holz, Aluminium), Lärmschutz und Nachbarschaftsrecht in Baden-Württemberg.',
+    title: 'Der Garten als Rückzugsort: Sichtschutz & Privatsphäre in Ulm',
+    excerpt: 'Entdecken Sie, wie wir einen modernen Garten mit schwarzem Sichtschutz, perfektem Rasen und stimmungsvoller Beleuchtung in eine private Wohlfühloase verwandelten. Erfahren Sie alles über Sichtschutzzaun-Höhen, Materialien (WPC, Holz, Aluminium), Lärmschutz und Nachbarschaftsrecht in der Region.',
     date: '2024-06-15',
     image: img9,
     story: [
-      'Privatsphäre ist im eigenen Garten ein hohes Gut. Besonders in dichter bebauten Gebieten von Kuppenheim und Rastatt ist der Wunsch nach einem geschützten Rückzugsort groß. Bei diesem Projekt zeigen wir, wie man Sichtschutz effektiv und ästhetisch ansprechend gestaltet – unter Berücksichtigung der rechtlichen Vorgaben in Baden-Württemberg. Gemäß Landesbauordnung sind Sichtschutzzäune an der Grundstücksgrenze in der Regel bis 1,80 Meter Höhe genehmigungsfrei, höhere Zäune bedürfen einer Baugenehmigung oder Zustimmung des Nachbarn.',
+      'Privatsphäre ist im eigenen Garten ein hohes Gut. Besonders in dichter bebauten Gebieten von Ulm und Neu-Ulm ist der Wunsch nach einem geschützten Rückzugsort groß. Bei diesem Projekt zeigen wir, wie man Sichtschutz effektiv und ästhetisch ansprechend gestaltet – unter Berücksichtigung der rechtlichen Vorgaben in der Region. Gemäß Landesbauordnung sind Sichtschutzzäune an der Grundstücksgrenze in der Regel bis 1,80 Meter Höhe genehmigungsfrei, höhere Zäune bedürfen einer Baugenehmigung oder Zustimmung des Nachbarn.',
       'Wir haben uns für eine Kombination aus schwarzem, modernem Holzsichtschutz und lebendiger Bepflanzung entschieden. Die dunklen Elemente bilden einen edlen Kontrast zum satten Grün des Rasens und der Pflanzen. Durch die Integration von LED-Beleuchtungselementen entsteht am Abend eine gemütliche Lounge-Atmosphäre. Für die Materialwahl standen WPC (Wood-Plastic-Composite), Thermoholz und Aluminium-Lamellen zur Auswahl. WPC ist besonders pflegeleicht und formstabil, benötigt keine Nachbehandlung und ist in vielen Farben erhältlich – allerdings etwas teurer als Holz.',
       'Thermisch behandeltes Holz wie Thermokiefer oder Thermoesche ist eine nachhaltige Alternative mit natürlicher Optik. Es ist deutlich beständiger gegen Verrottung als unbehandeltes Holz, sollte aber alle 2-3 Jahre mit Öl oder Lasur gepflegt werden, um die Farbe zu erhalten. Aluminium-Sichtschutzzäune sind die langlebigste, aber auch kostenintensivste Lösung – ideal für moderne Architektur und absolut wartungsfrei. Die Kosten liegen bei 120-250€ pro laufendem Meter je nach Material und Höhe.',
       'Ein wichtiger Aspekt war die Langlebigkeit und der Lärmschutz. Wir verwenden ausschließlich wetterfeste Materialien und sorgen durch fachgerechte Montage mit einbetonierten Pfosten (80cm Tiefe) für Stabilität auch bei Sturm. Massive Sichtschutzwände aus WPC oder gefüllte Gabionen können auch Straßenlärm um bis zu 10 Dezibel reduzieren – ein willkommener Nebeneffekt für Grundstücke an vielbefahrenen Straßen. Der Sichtschutz dient dabei nicht nur der Abgrenzung, sondern auch als Gestaltungselement, das dem Garten Struktur und Tiefe verleiht.'
@@ -267,7 +266,7 @@ const blogPosts: BlogPost[] = [
       },
       {
         title: 'Höhe beachten',
-        description: 'In Baden-Württemberg gelten für Sichtschutzzäune an der Grenze oft maximale Höhen von 1,80m. Wir kennen die lokalen Vorschriften.'
+        description: 'In der Region gelten für Sichtschutzzäune an der Grenze oft maximale Höhen von 1,80m. Wir kennen die lokalen Vorschriften.'
       },
       {
         title: 'Bepflanzung auflockern',
@@ -287,14 +286,14 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: '5',
-    slug: 'farbe-form-funktionalitaet-kuppenheim',
+    slug: 'farbe-form-funktionalitaet-ulm',
     title: 'Farbe, Form & Funktionalität: Gartengestaltung mit Azaleen & Mulch',
-    excerpt: 'Wie man mit einfachen Mitteln wie Rindenmulch, farbenfrohen Azaleen und Formschnitt-Hecken große Wirkung erzielt. Ein Praxisbeispiel für pflegeleichte Gartengestaltung in Kuppenheim mit Rhododendron, Moorbeetpflanzen und Bodendecker. Erfahren Sie alles über sauren Boden, Mulcharten und farbliche Gartenplanung.',
+    excerpt: 'Wie man mit einfachen Mitteln wie Rindenmulch, farbenfrohen Azaleen und Formschnitt-Hecken große Wirkung erzielt. Ein Praxisbeispiel für pflegeleichte Gartengestaltung in Ulm mit Rhododendron, Moorbeetpflanzen und Bodendecker. Erfahren Sie alles über sauren Boden, Mulcharten und farbliche Gartenplanung.',
     date: '2024-07-20',
     image: img10,
     story: [
-      'Kontraste machen den Garten lebendig. In diesem Projekt in der Nähe von Kuppenheim haben wir gezeigt, wie man mit Farbe und Form spielt. Die leuchtenden Blüten der Azaleen (botanisch Rhododendron) stehen im wunderschönen Kontrast zum tiefen Grün der Hecken und dem natürlichen Braun des Rindenmulchs. Azaleen gehören zu den Moorbeetpflanzen und benötigen sauren Boden mit einem pH-Wert zwischen 4,5 und 5,5. In unserer Region mit eher neutralen bis leicht alkalischen Böden ist daher spezielle Rhododendron-Erde oder eine Bodenvorbereitung mit Torf und Nadelkompost notwendig.',
-      'Rindenmulch ist dabei weit mehr als nur Dekoration. Er hält die Feuchtigkeit im Boden – gerade im heißen Oberrheingraben ein wichtiger Faktor für die Pflanzengesundheit, besonders für feuchtigkeitsliebende Azaleen. Zudem unterdrückt er Unkrautwuchs auf natürliche Weise und spart Ihnen so wertvolle Zeit bei der Gartenpflege. Beim Verrotten gibt Rindenmulch organische Säuren ab, die den pH-Wert senken – ideal für Moorbeetpflanzen. Allerdings entzieht frischer Mulch dem Boden Stickstoff, weshalb wir vor dem Auftragen immer eine Grunddüngung mit Hornspänen oder speziellem Rhododendrondünger empfehlen.',
+      'Kontraste machen den Garten lebendig. In diesem Projekt in der Nähe von Ulm haben wir gezeigt, wie man mit Farbe und Form spielt. Die leuchtenden Blüten der Azaleen (botanisch Rhododendron) stehen im wunderschönen Kontrast zum tiefen Grün der Hecken und dem natürlichen Braun des Rindenmulchs. Azaleen gehören zu den Moorbeetpflanzen und benötigen sauren Boden mit einem pH-Wert zwischen 4,5 und 5,5. In unserer Region mit eher neutralen bis leicht alkalischen Böden ist daher spezielle Rhododendron-Erde oder eine Bodenvorbereitung mit Torf und Nadelkompost notwendig.',
+      'Rindenmulch ist dabei weit mehr als nur Dekoration. Er hält die Feuchtigkeit im Boden – gerade im heißen Donautal ein wichtiger Faktor für die Pflanzengesundheit, besonders für feuchtigkeitsliebende Azaleen. Zudem unterdrückt er Unkrautwuchs auf natürliche Weise und spart Ihnen so wertvolle Zeit bei der Gartenpflege. Beim Verrotten gibt Rindenmulch organische Säuren ab, die den pH-Wert senken – ideal für Moorbeetpflanzen. Allerdings entzieht frischer Mulch dem Boden Stickstoff, weshalb wir vor dem Auftragen immer eine Grunddüngung mit Hornspänen oder speziellem Rhododendrondünger empfehlen.',
       'Alternativ zu Rindenmulch bieten sich Pinienmulch (edler, länger haltbar, aber teurer), Hackschnitzel (günstig, aber grobkörniger) oder anorganische Mulchmaterialien wie Lavamulch und Kies an. Lavamulch ist besonders langlebig, speichert Wärme und gibt sie nachts ab, wirkt aber optisch kühler. Für moderne Gärten mit klaren Linien ist anthrazitfarbener Basaltsplitt eine elegante Lösung. Unter dem Mulch verlegen wir auf Wunsch ein Unkrautvlies (Gartenvlies), das die Unkrautunterdrückung noch verstärkt, aber wasserdurchlässig bleibt.',
       'Die strukturierte Anordnung der Beete sorgt für Ruhe und Ordnung, während die Pflanzen selbst für Lebendigkeit sorgen. Ein pflegeleichtes Konzept, das das ganze Jahr über gut aussieht. Im Frühjahr begeistern die Azaleen mit ihrer Blütenpracht in Weiß, Rosa, Rot oder Violett. Im Sommer bieten die immergrünen Rhododendron-Blätter einen satten grünen Hintergrund für Stauden und Gräser. Im Herbst setzen wir gezielt Herbstfärber wie Fothergilla oder Enkianthus ein, um auch in dieser Jahreszeit Farbakzente zu schaffen.'
     ],
@@ -321,13 +320,13 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: '6',
-    slug: 'kuppenheim-stadion-zaun',
-    title: 'Objekteschutz für Vereine: Der neue Stadionzaun in Kuppenheim',
-    excerpt: 'Sicherheit für Sport und Spiel: Installation eines robusten grünen Maschendrahtzauns für die lokale Sportanlage in Kuppenheim. Erfahren Sie alles über Ballfangzäune, Gewerbezäune, Objektschutz und DIN-Normen für Sportstätten. Funktional, langlebig und wartungsarm.',
+    slug: 'ulm-stadion-zaun',
+    title: 'Objekteschutz für Vereine: Der neue Stadionzaun in Ulm',
+    excerpt: 'Sicherheit für Sport und Spiel: Installation eines robusten grünen Maschendrahtzauns für die lokale Sportanlage in Ulm. Erfahren Sie alles über Ballfangzäune, Gewerbezäune, Objektschutz und DIN-Normen für Sportstätten. Funktional, langlebig und wartungsarm.',
     date: '2024-08-01',
     image: img18,
     story: [
-      'Nicht nur Privatgärten, auch öffentliche Einrichtungen und Gewerbeobjekte vertrauen auf Lujan landscaping. Für das Sportgelände in Kuppenheim durften wir einen neuen Ballfang- und Begrenzungszaun installieren. Hier standen Sicherheit, Robustheit und Langlebigkeit an erster Stelle. Im Gegensatz zu privaten Gartenzäunen müssen Sportplatzzäune deutlich höheren Belastungen standhalten – sowohl durch Ballkontakte als auch durch Witterungseinflüsse bei ganzjähriger Nutzung.',
+      'Nicht nur Privatgärten, auch gewerbliche Einrichtungen vertrauen auf Beni Garten und Grünanlagenpflege. Für diese durften wir auch schon Ballfang- und Begrenzungszäune installieren. Hier stehen Sicherheit, Robustheit und Langlebigkeit an erster Stelle.',
       'Wir haben uns für einen klassischen, grünen Maschendrahtzaun mit verstärkten Pfosten (Durchmesser 60mm statt Standard 48mm) entschieden. Diese Lösung ist kosteneffizient, extrem langlebig und fügt sich durch die grüne RAL 6005 Moosgrün-Beschichtung harmonisch in die Umgebung ein. Der Zaun hält auch harten Ballkontakten stand und sichert das Gelände zuverlässig ab. Die Maschenweite von 50x50mm verhindert das Durchgreifen und entspricht den Sicherheitsanforderungen für Sportanlagen gemäß DIN 18034 (Spielplätze und Freiräume zum Spielen).',
       'Für Ballfangzäune hinter den Toren haben wir eine Höhe von 4 Metern gewählt, während die seitlichen Begrenzungszäune 2 Meter hoch sind. Die Pfosten wurden 100cm tief in Beton eingelassen (statt 80cm bei Privatgärten), um der erhöhten Belastung standzuhalten. Zusätzlich haben wir Eckpfosten und Torpfosten mit Streben verstärkt. Die Kosten für solche Gewerbezäune liegen bei 35-60€ pro laufendem Meter für 2m Höhe und 60-90€/m für 4m Ballfangzäune inklusive Montage.',
       'Besondere Herausforderung war die Montage im Gefälle und die Integration von Toren für die Pflegefahrzeuge. Wir haben zwei Flügeltore mit 4 Metern Breite eingebaut, die auch für Traktoren und kleine LKW passierbar sind. Dank unserer Erfahrung im gewerblichen Zaunbau konnten wir das Projekt fristgerecht vor Saisonbeginn fertigstellen. Auf Wunsch bieten wir auch Wartungsverträge für Vereine und Gemeinden an – regelmäßige Inspektionen und schnelle Reparaturen bei Beschädigungen inklusive.'
@@ -439,7 +438,7 @@ const ContactForm = () => {
     <>
       <div className="bg-black p-6 md:p-8 rounded-xl shadow-2xl w-full max-w-md mx-auto lg:mx-0">
         <h3 className="text-2xl md:text-3xl font-black text-white text-center mb-6 md:mb-8 uppercase font-sans">
-          Free Consultation
+          Kostenlose Beratung
         </h3>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -447,13 +446,13 @@ const ContactForm = () => {
           {/* Name Field */}
           <div>
             <label htmlFor="name" className="block text-white font-bold text-sm mb-1">
-              Your Name *
+              Ihr Name *
             </label>
             <input
               id="name"
               type="text"
               name="name"
-              placeholder="John Doe"
+              placeholder="Ihre Name"
               className="w-full p-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 text-base"
               required
             />
@@ -462,13 +461,13 @@ const ContactForm = () => {
           {/* Phone Field */}
           <div>
             <label htmlFor="phone" className="block text-white font-bold text-sm mb-1">
-              Phone *
+              Telefon *
             </label>
             <input
               id="phone"
               type="tel"
               name="phone"
-              placeholder="+1 720-530-3933"
+              placeholder="123 456 7891"
               className="w-full p-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 text-base"
               required
             />
@@ -477,13 +476,13 @@ const ContactForm = () => {
           {/* City Field */}
           <div>
             <label htmlFor="city" className="block text-white font-bold text-sm mb-1">
-              Your City *
+              Ihr Wohnort *
             </label>
             <input
               id="city"
               type="text"
               name="city"
-              placeholder="Denver"
+              placeholder="Ulm"
               className="w-full p-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 text-base"
               required
             />
@@ -492,12 +491,12 @@ const ContactForm = () => {
           {/* Message Field */}
           <div>
             <label htmlFor="message" className="block text-white font-bold text-sm mb-1">
-              How can we help you? *
+              Wie können wir Ihnen helfen? *
             </label>
             <textarea
               id="message"
               name="message"
-              placeholder="Your message..."
+              placeholder="Ihre Nachricht..."
               rows={3}
               className="w-full p-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 text-sm resize-none"
               required
@@ -513,15 +512,15 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="agb" className="text-xs text-gray-300">
-              I agree to the{' '}
+              Ich stimme den{' '}
               <a
                 href="/agb"
                 className="text-green-500 underline hover:text-green-400 transition-colors"
                 onClick={(e) => e.stopPropagation()}
               >
-                Terms
+                AGB
               </a>{' '}
-              and allow contact.
+              zu und erlaube die Kontaktaufnahme.
             </label>
           </div>
 
@@ -537,7 +536,7 @@ const ContactForm = () => {
                 Sende...
               </>
             ) : (
-              'Send Request'
+              'Anfrage Senden'
             )}
           </button>
         </form>
@@ -606,47 +605,47 @@ const ContactFormMobile = () => {
     }
   };
 
-  return (
+
     <div className="w-full">
       <form onSubmit={handleSubmit} className="space-y-4 text-left">
         <div>
-          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Your Name *</label>
+          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Ihr Name *</label>
           <input
             type="text"
             name="name"
-            placeholder="John Doe"
+            placeholder="Max Mustermann"
             className="w-full px-4 py-4 rounded-xl bg-[#f8f9fa] border-none text-[#1a1c1d] placeholder:text-gray-400 focus:ring-2 focus:ring-[#4a7c59] text-sm font-medium"
             required
           />
         </div>
 
         <div>
-          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Phone *</label>
+          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Telefon *</label>
           <input
             type="tel"
             name="phone"
-            placeholder="+1 720-530-3933"
+            placeholder="+49 174 8023038"
             className="w-full px-4 py-4 rounded-xl bg-[#f8f9fa] border-none text-[#1a1c1d] placeholder:text-gray-400 focus:ring-2 focus:ring-[#4a7c59] text-sm font-medium"
             required
           />
         </div>
 
         <div>
-          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Your City *</label>
+          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Ihr Wohnort *</label>
           <input
             type="text"
             name="city"
-            placeholder="Denver"
+            placeholder="Ulm"
             className="w-full px-4 py-4 rounded-xl bg-[#f8f9fa] border-none text-[#1a1c1d] placeholder:text-gray-400 focus:ring-2 focus:ring-[#4a7c59] text-sm font-medium"
             required
           />
         </div>
 
         <div>
-          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">How can we help you? *</label>
+          <label className="block text-[#1a1c1d] font-bold text-xs mb-2 pl-1">Wie können wir Ihnen helfen? *</label>
           <textarea
             name="message"
-            placeholder="Your message..."
+            placeholder="Ihre Nachricht..."
             rows={4}
             className="w-full px-4 py-4 rounded-xl bg-[#f8f9fa] border-none text-[#1a1c1d] placeholder:text-gray-400 focus:ring-2 focus:ring-[#4a7c59] text-sm resize-none font-medium"
             required
@@ -656,7 +655,7 @@ const ContactFormMobile = () => {
         <div className="flex items-start gap-3 mt-4 px-1">
           <input type="checkbox" className="mt-1 accent-[#4a7c59] w-4 h-4" required id="agb-mob-inner" />
           <label htmlFor="agb-mob-inner" className="text-[11px] text-gray-500 leading-normal">
-            I agree to the <a href="/agb" className="text-[#4a7c59] font-bold underline">Terms</a> and allow contact.
+            Ich stimme den <a href="/agb" className="text-[#4a7c59] font-bold underline">AGB</a> zu und erlaube die Kontaktaufnahme.
           </label>
         </div>
 
@@ -665,7 +664,7 @@ const ContactFormMobile = () => {
           disabled={isSubmitting}
           className="w-full bg-[#4a7c59] text-white font-black py-4 rounded-xl uppercase tracking-wider shadow-xl shadow-green-900/10 active:scale-[0.98] transition-all disabled:opacity-50 mt-6 text-base"
         >
-          {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
+          {isSubmitting ? 'SENDET...' : 'ANFRAGE SENDEN'}
         </button>
       </form>
 
@@ -688,158 +687,100 @@ const ContactFormMobile = () => {
         </div>
       )}
     </div>
-  );
+  
 };
 
 // --- Hauptabschnitte ---
 
 const Hero = () => {
   return (
-    <>
-      {/* Mobile-Only Hero Layout (Visible on lg:hidden) */}
-      <div className="lg:hidden flex flex-col bg-stone-100">
-        <div className="relative h-screen w-full flex flex-col justify-center items-center px-6 overflow-hidden">
-          {/* Background Image - img22 (grasshero2.png) */}
-          <div
-            className="absolute inset-0 bg-cover bg-center animate-slow-zoom"
-            style={{
-              backgroundImage: `url("${img23}")`,
-              backgroundPosition: 'center',
-              backgroundSize: 'cover'
-            }}
-          >
-            {/* Subtle Overlay */}
-            <div className="absolute inset-0 bg-black/50"></div>
-          </div>
+    <div className="relative w-full bg-stone-100 flex flex-col lg:block">
+      {/* Background Images - swapped via CSS for mobile/desktop */}
+      <div
+        className="absolute inset-0 bg-cover bg-center animate-slow-zoom lg:hidden h-screen"
+        style={{ backgroundImage: `url("${img23}")` }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      <div
+        className="absolute inset-0 bg-cover bg-center animate-slow-zoom hidden lg:block"
+        style={{ backgroundImage: `url("${img23}")` }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-earth-900/80 via-transparent to-black/20"></div>
+      </div>
 
-          {/* Content */}
-          <div className="relative z-10 text-center flex flex-col items-center top-[-40px]">
-            <span className="text-[#c5a26a] font-bold tracking-[0.4em] text-[10px] uppercase mb-4 animate-[fadeInUp_0.8s_ease-out]">
-              Your Landscaping Partner in Denver, CO
-            </span>
-            <h1 className="text-6xl font-serif text-white leading-[1.1] animate-[fadeInUp_1s_ease-out] drop-shadow-lg">
-              Lujan <br />
-              <span className="text-[#c5a26a] italic font-light block mt-2">landscaping</span>
-            </h1>
+      {/* Unified Hero Content */}
+      <div className="relative h-screen lg:min-h-screen w-full max-w-7xl mx-auto flex flex-col justify-center items-center lg:flex-row lg:justify-between px-4 sm:px-6 lg:px-8 z-10 pt-10 pb-20 lg:pb-12 lg:pt-20">
 
-
-            <p className="text-white text-lg leading-relaxed max-w-[340px] mx-auto my-8 animate-[fadeInUp_1.3s_ease-out] font-medium drop-shadow-md">
-              We are a small family-owned landscaping company in Colorado. From pavers and concrete to plant services and maintenance – we do it all. Call 720-530-3933 for a free quote!
+        {/* Text Section */}
+        <div className="text-center lg:text-left flex flex-col items-center lg:items-start max-w-2xl mt-[-40px] lg:mt-0">
+          <div className="overflow-hidden mb-2">
+            <p className="text-[#c5a26a] lg:text-gold-500 font-bold tracking-[0.4em] lg:tracking-[0.3em] uppercase text-[10px] md:text-sm animate-[fadeInUp_0.8s_ease-out_forwards] lg:animate-[fadeInUp_1s_ease-out_forwards]">
+              Ihr Gärtner in Ulm & Umgebung
             </p>
-
-            {/* Action Buttons */}
-            <div className="flex flex-col gap-4 w-full max-w-[280px] animate-[fadeInUp_1.4s_ease-out]">
-              <Link
-                to={NavigationLinks.SERVICES}
-                className="bg-[#c5a26a] text-white py-4 px-8 font-bold text-xs uppercase tracking-[0.2em] shadow-lg active:scale-95 transition-transform"
-              >
-                Our Services
-              </Link>
-              <Link
-                to={NavigationLinks.PROJECTS}
-                className="border border-white/50 bg-white/5 backdrop-blur-sm text-white py-4 px-8 font-bold text-xs uppercase tracking-[0.2em] active:scale-95 transition-transform hover:bg-white/10"
-              >
-                View Projects
-              </Link>
-            </div>
           </div>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-[1.1] drop-shadow-lg lg:drop-shadow-2xl mb-6 lg:mb-8 animate-[fadeInUp_1s_ease-out_forwards] lg:animate-[fadeInUp_1.2s_ease-out_forwards]">
+            Beni Garten <br />
+            <span className="italic font-light text-[#c5a26a] lg:text-gold-400 text-3xl md:text-4xl lg:text-5xl xl:text-6xl block mt-2">und Grünanlagenpflege</span>
+          </h1>
 
-          {/* Scroll Arrows - img21 */}
+          <p className="text-white lg:text-gray-200 text-lg md:text-xl font-medium lg:font-light max-w-[340px] lg:max-w-2xl mx-auto lg:mx-0 lg:border-l-2 lg:border-gold-500 lg:pl-6 my-8 lg:mb-10 animate-[fadeInUp_1.3s_ease-out_forwards] lg:animate-[fadeInUp_1.4s_ease-out_forwards] drop-shadow-md">
+            <strong>Ihr Experte für Gartenbau in Ulm und Umgebung</strong><br />
+            Wir sind Ihr lokaler Fachbetrieb für professionellen Zaunbau, Pflasterarbeiten und Gartenpflege direkt in Ulm. Egal ob Doppelstabmattenzaun oder Rollrasen – wir arbeiten in der Region Donau-Iller und liefern höchste Qualität für Neu-Ulm, Blaustein, Senden und darüber hinaus.
+          </p>
 
-          <div className=" bottom-10 left-1/2 -translate-x-2.5">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-5 animate-[fadeInUp_1.4s_ease-out_forwards] lg:animate-[fadeInUp_1.6s_ease-out_forwards] w-full max-w-[280px] lg:max-w-none justify-center lg:justify-start">
+            <Link
+              to={NavigationLinks.SERVICES}
+              className="bg-[#c5a26a] lg:bg-gold-500 text-white lg:hover:bg-gold-600 px-8 lg:px-10 py-4 lg:py-4 font-bold text-xs lg:text-base uppercase tracking-[0.2em] lg:tracking-widest shadow-lg lg:shadow-xl transition-all duration-300 active:scale-95 lg:hover:-translate-y-1 text-center"
+            >
+              Unsere Dienstleistungen
+            </Link>
+            <Link
+              to={NavigationLinks.PROJECTS}
+              className="border border-white/50 lg:border-white/30 bg-white/5 lg:bg-transparent backdrop-blur-sm text-white px-8 lg:px-10 py-4 lg:py-4 font-bold text-xs lg:text-base uppercase tracking-[0.2em] lg:tracking-widest transition-all duration-300 hover:bg-white/10 active:scale-95 lg:hover:-translate-y-1 text-center"
+            >
+              Projekte ansehen
+            </Link>
+          </div>
+        </div>
+
+        {/* Contact Form Desktop */}
+        <div className="hidden lg:block animate-[fadeInUp_1.6s_ease-out_forwards] z-20">
+          <ContactForm />
+        </div>
+
+        {/* Scroll Arrows Mobile */}
+        <div className="lg:hidden absolute bottom-10 left-1/2 -translate-x-1/2">
+          <img
+            src={img21}
+            alt="Scroll down"
+            className="w-44 h-auto opacity-100 drop-shadow-xl"
+          />
+        </div>
+      </div><br />
+
+      {/* Mobile Contact Form Section (Card style under hero) */}
+      <div className="lg:hidden relative z-30 -mt-8 bg-white rounded-t-[40px] px-6 pt-16 pb-16 shadow-[0_-10px_40px_rgba(0,0,0,0.1)] w-full">
+        <div className="absolute -top-12 left-1/2 -translate-x-1/2">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-gold-400 to-earth-800 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
             <img
-              src={img21}
-              alt="Scroll down"
-              className="w-44 h-auto opacity-100 drop-shadow-xl"
+              src={img25}
+              alt="Logo Beni Garten und Grünanlagenpflege"
+              className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-2xl"
             />
           </div>
         </div>
+        <div className="text-center mt-4">
+          <h2 className="text-2xl md:text-3xl font-black text-earth-900 mb-6 uppercase font-sans">
+            KOSTENFREIE BERATUNG
+          </h2>
 
-        {/* Mobile Contact Form Section (Card style under hero) */}
-        <div className="relative z-30 -mt-8 bg-white rounded-t-[40px] px-6 pt-16 pb-16 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
-          {/* Circular Logo Indicator */}
-          <div className="absolute -top-12 left-1/2 -translate-x-1/2">
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-gold-400 to-earth-800 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
-              <img
-                src={img25}
-                alt="Logo Lujan landscaping"
-                className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-2xl"
-              />
-            </div>
-          </div>
-
-          <div className="text-center"><br /><br />
-            <h2 className="text-2xl md:text-3xl font-black text-earth-900 text-center mb-6 md:mb-8 uppercase font-sans">
-              FREE CONSULTATION
-            </h2>
-            <ContactFormMobile />
-          </div>
         </div>
       </div>
-
-      {/* Desktop-Only Hero Layout (Visible on hidden lg:block) */}
-      <div className="hidden lg:block relative min-h-screen w-full overflow-visible pb-12">
-        {/* Hintergrundbild mit langsamer Zoom-Effekt */}
-        <div
-          className="absolute inset-0 bg-cover bg-center animate-slow-zoom"
-          style={{ backgroundImage: `url("${img22}")` }}
-        >
-          <div className="absolute inset-0 bg-black/40"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-earth-900/80 via-transparent to-black/20"></div>
-        </div>
-
-        {/* Inhalt */}
-        <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center z-10 pt-20 lg:pt-10">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
-            <div className="max-w-2xl text-center lg:text-left">
-              <div className="overflow-hidden mb-2">
-                <p className="text-gold-500 font-bold tracking-[0.3em] uppercase text-xs md:text-sm animate-[fadeInUp_1s_ease-out_forwards]">
-                  Your Landscaping Partner in Denver, CO
-                </p>
-              </div>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-[1.1] drop-shadow-2xl mb-6 md:mb-8 animate-[fadeInUp_1.2s_ease-out_forwards]">
-                Lujan
-                <br />
-                <span className="italic font-light text-gold-400">landscaping</span>
-              </h1>
-
-              <p className="text-lg md:text-xl text-gray-200 font-light max-w-2xl border-l-2 border-gold-500 pl-4 md:pl-6 mb-8 md:mb-10 animate-[fadeInUp_1.4s_ease-out_forwards] mx-auto lg:mx-0">
-                We are a small family-owned landscaping company in Colorado. Our services include installing pavers, mulch/rock, concrete, plant/tree installation, wood fencing, and maintenance. Interested in aeration with fertilizer or sprinkler winterization? Contact us at 720-530-3933 for availability and a free quote!
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 md:gap-5 animate-[fadeInUp_1.6s_ease-out_forwards] justify-center lg:justify-start">
-                <Link
-                  to={NavigationLinks.SERVICES}
-                  className="px-6 md:px-10 py-3 md:py-4 bg-gold-500 hover:bg-gold-600 text-white font-bold tracking-widest uppercase transition-all duration-300 text-center shadow-xl hover:-translate-y-1 text-sm md:text-base"
-                >
-                  Our Services
-                </Link>
-                <Link
-                  to={NavigationLinks.PROJECTS}
-                  className="px-6 md:px-10 py-3 md:py-4 bg-transparent hover:bg-white/10 text-white border border-white/30 font-bold tracking-widest uppercase transition-all duration-300 text-center backdrop-blur-sm hover:-translate-y-1 text-sm md:text-base"
-                >
-                  View Projects
-                </Link>
-              </div>
-            </div>
-
-            {/* Kontaktformular rechts - für Desktop sichtbar */}
-            <div className="animate-[fadeInUp_1.6s_ease-out_forwards]">
-              <ContactForm />
-            </div>
-          </div>
-        </div>
-
-        {/* Scroll-Indikator */}
-        <div className="absolute bottom-6 md:bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-white/50">
-          <div className="flex flex-col items-center">
-            <span className="text-[10px] tracking-widest uppercase mb-2">Scroll</span>
-            <div className="w-px h-8 md:h-12 bg-white/50"></div>
-          </div>
-        </div>
-      </div>
-    </>
+    </div>
   );
 };
 
@@ -847,33 +788,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <PencilRuler className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Hardscaping & Pavers",
-      desc: "Professional installation of pavers and hardscaping to create beautiful outdoor living spaces."
+      title: "Pflaster- & Landschaftsbau",
+      desc: "Professionelle Verlegung von Pflastersteinen und Landschaftsbau, um wunderschöne Außenbereiche zu schaffen."
     },
     {
       icon: <Shovel className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Mulch & Rock Installation",
-      desc: "Quality mulch and decorative rock installation for attractive, low-maintenance landscaping."
+      title: "Verlegung von Mulch & Zierkies",
+      desc: "Hochwertige Verlegung von Mulch und Zierkies für eine ansprechende und pflegeleichte Landschaftsgestaltung."
     },
     {
       icon: <Leaf className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Concrete Services",
-      desc: "Durable concrete installations for patios, walkways, driveways, and more. Contact us for a free estimate!"
+      title: "Betonarbeiten",
+      desc: "Robuste Betonkonstruktionen für Terrassen, Gehwege, Einfahrten und mehr. Kontaktieren Sie uns für ein kostenloses Angebot!"
     },
     {
       icon: <Leaf className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Plant & Tree Services",
-      desc: "Complete plant and tree installation, trimming, and removal services for healthy landscapes."
+      title: "Pflanzen- & Baumpflege",
+      desc: "Umfassender Service für Pflanzung, Schnitt und Entfernung von Bäumen für gesunde Landschaften."
     },
     {
       icon: <PencilRuler className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Wood Fencing",
-      desc: "Custom wood fence installation for privacy, security, and aesthetic appeal."
+      title: "Holzzäune",
+      desc: "Individuelle Montage von Holzzäunen für Privatsphäre, Sicherheit und ansprechende Optik."
     },
     {
       icon: <Shovel className="w-6 h-6 md:w-8 md:h-8" />,
-      title: "Maintenance Services",
-      desc: "Regular lawn mowing, clean-ups, aeration with fertilizer, and sprinkler winterization."
+      title: "Instandhaltung & Wartung",
+      desc: "Regelmäßiges Rasenmähen, Aufräumarbeiten, Aerifizierung inklusive Düngung und Winterfestmachung von Sprinkleranlagen."
     }
   ];
 
@@ -886,7 +827,7 @@ const ServicesSection = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
-          <SectionTitle subtitle="Our Services" title="Quality Craftsmanship" />
+          <SectionTitle subtitle="Unsere Dienstleistungen" title="Qualitätshandwerk" />
         </RevealOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -917,45 +858,45 @@ const AboutPreview = () => (
           <div className="relative w-full max-w-lg mx-auto lg:mx-0">
             <div className="absolute -top-4 -left-4 md:-top-6 md:-left-6 w-full h-full border border-gold-500/30 z-0"></div>
             <img
-              src="images/7.webp"
-              alt="Work of Lujan landscaping"
+              src={img7}
+              alt="Arbeit von Beni Garten und Grünanlagenpflege"
               className="relative z-10 w-full h-[400px] md:h-[600px] object-cover shadow-2xl"
             />
             <div className="absolute -bottom-6 -right-6 md:-bottom-10 md:-right-10 bg-white text-earth-900 p-4 md:p-8 shadow-xl max-w-xs hidden lg:block z-20">
-              <p className="font-serif text-lg md:text-2xl italic">"Professional, reliable and with love of the garden."</p>
-              <p className="text-right mt-2 md:mt-4 font-bold text-gold-600 text-xs md:text-sm tracking-widest">— Lujan landscaping</p>
+              <p className="font-serif text-lg md:text-2xl italic">"Professionell, zuverlässig und mit viel Liebe zum Garten."</p>
+              <p className="text-right mt-2 md:mt-4 font-bold text-gold-600 text-xs md:text-sm tracking-widest">— Beni Garten und Grünanlagenpflege</p>
             </div>
           </div>
         </RevealOnScroll>
 
         <div className="lg:w-1/2 space-y-6 md:space-y-8 mt-8 lg:mt-0">
           <RevealOnScroll delay={200}>
-            <span className="text-gold-500 font-bold tracking-[0.2em] text-xs uppercase">Our Philosophy</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mt-4 leading-tight">Craftsmanship & <span className="text-gold-500 italic">Tradition</span></h2>
+            <span className="text-gold-500 font-bold tracking-[0.2em] text-xs uppercase">Unsere Philosophie</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mt-4 leading-tight">Handwerk & <span className="text-gold-500 italic">Tradition</span></h2>
 
             <p className="text-gray-300 text-base md:text-lg font-light leading-relaxed mt-4 md:mt-6">
-              We are a small family-owned landscaping company in Colorado dedicated to transforming outdoor spaces. Whether you need hardscaping with pavers, concrete installations, mulch or rock features, plant and tree services, wood fencing, or regular maintenance including mowing and clean-ups – we've got you covered. Contact us at 720-530-3933 for a free quote!
+              Wir sind ein kleines Unternehmen für Garten- und Landschaftsbau in Ulm, das sich der Gestaltung von Außenbereichen verschrieben hat. Ob Pflaster- und Betonarbeiten, Mulch-/Kiesanlagen, Pflanzenpflege, Holzzäune oder regelmäßige Wartung mitsamt Aerifizierung und Sprinklerwartung – bei uns sind Sie in besten Händen. Kontaktieren Sie uns unter +49 174 8023038 für ein kostenloses Angebot!
             </p>
 
             {/* Unternehmensteil */}
             <div className="flex items-center gap-4 md:gap-6 p-4 md:p-6 bg-white/5 border border-white/10 rounded-sm mt-6 md:mt-8 backdrop-blur-sm hover:bg-white/10 transition-colors">
               <img
-                src="images/logo_white.jpg"
-                alt="Logo Lujan landscaping"
+                src={img25}
+                alt="Logo Beni Garten und Grünanlagenpflege"
                 className="w-25 h-16 md:w-35 md:h-24 object-cover border-2 border-gold-500 shadow-md"
               />
               <div>
-                <h4 className="text-lg md:text-xl font-serif text-white">Lujan landscaping</h4>
-                <p className="text-gold-500 text-xs font-bold uppercase tracking-widest mb-1 md:mb-2">Landscape Company</p>
-                <p className="text-gray-400 text-xs italic">"Quality landscaping services you can trust."</p>
+                <h4 className="text-lg md:text-xl font-serif text-white">Beni Garten und Grünanlagenpflege</h4>
+                <p className="text-gold-500 text-xs font-bold uppercase tracking-widest mb-1 md:mb-2">Garten- & Landschaftsbau</p>
+                <p className="text-gray-400 text-xs italic">"Qualitätsarbeit im Gartenbau, auf die Sie sich verlassen können."</p>
               </div>
             </div>
 
             <div className="space-y-4 md:space-y-6 mt-6 md:mt-8">
               {[
-                { title: "Family-Owned Business", desc: "Small, dedicated team providing personalized service and attention to detail." },
-                { title: "Free Quotes", desc: "Call or text 720-530-3933 for a free estimate on any of our services." },
-                { title: "Complete Services", desc: "From hardscaping and concrete to maintenance and seasonal services like aeration and sprinkler winterization." }
+                { title: "Ihre Experten vor Ort", desc: "Ein engagiertes Team für persönlichen Service und Liebe zum Detail." },
+                { title: "Kostenlose Angebote", desc: "Rufen Sie uns an oder schreiben Sie unter +49 174 8023038 für eine gratis Ersteinschätzung." },
+                { title: "Umfassender Service", desc: "Von Pflaster- und Betonarbeiten über Pflanzenpflege bis hin zur Einwinterung von Bewässerungsanlagen." }
               ].map((item, i) => (
                 <div key={i} className="flex">
                   <div className="mt-1 mr-3 md:mr-4 text-gold-500 shrink-0"><CheckCircle size={20} className="md:w-6 md:h-6" /></div>
@@ -969,7 +910,7 @@ const AboutPreview = () => (
 
             <div className="pt-6 md:pt-8">
               <Link to={NavigationLinks.ABOUT} className="inline-flex items-center text-gold-500 hover:text-white uppercase tracking-widest font-bold text-sm transition-colors border-b border-gold-500 pb-1 hover:border-white">
-                Learn More About Us <ArrowRight className="ml-2" size={16} />
+                Mehr über uns erfahren <ArrowRight className="ml-2" size={16} />
               </Link>
             </div>
           </RevealOnScroll>
@@ -989,7 +930,7 @@ const ProjectsGallery = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
-          <SectionTitle subtitle="Our Projects" title="Current Projects & Concepts" />
+          <SectionTitle subtitle="Unsere Projekte" title="Aktuelle Projekte & Konzepte" />
         </RevealOnScroll>
 
         {/* Galerie Grid */}
@@ -1040,16 +981,12 @@ const Testimonials = () => {
   const googleMapsUrl = "https://www.google.com/maps/place/Luan+Allround+Service/@49.1195743,9.1717969,1768539a,35y,350.44h/data=!3m1!1e3!4m18!1m9!3m8!1s0x47971d9ddc21dc61:0x8b73b203f70f96b!2sLuan+Allround+Service!8m2!3d48.8264987!4d8.2535412!9m1!1b1!16s%2Fg%2F11rr2yqn18!3m7!1s0x47971d9ddc21dc61:0x8b73b203f70f96b!8m2!3d48.8264987!4d8.2535412!9m1!1b1!16s%2Fg%2F11rr2yqn18?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D";
 
   const allReviews = [
-    { name: "Jennifer M.", location: "Westminster, CO", rating: 5, time: "1 month ago", text: "Lujan landscaping did an amazing job installing pavers in our backyard! The team was professional, on time, and the quality of work exceeded our expectations. Our outdoor space looks incredible now. Highly recommend!" },
-    { name: "Mike R.", location: "Aurora, CO", rating: 5, time: "2 months ago", text: "Called them for a concrete patio installation and got a free quote right away. The work was done quickly and looks fantastic. Great communication throughout the project. Will definitely use them again for our fence project!" },
-    { name: "Sarah T.", location: "Denver, CO", rating: 5, time: "3 months ago", text: "We hired Lujan landscaping for regular maintenance and they've been wonderful. From mowing to seasonal aeration and fertilizer service, everything is done with care. It's nice to work with a family-owned business that truly cares about their customers." },
-    { name: "Carlos D.", location: "Thornton, CO", rating: 5, time: "4 months ago", text: "Excellent tree trimming and mulch installation! They removed an old tree and installed fresh mulch throughout our yard. The crew was respectful, cleaned up everything, and the price was very fair. Highly recommend calling 720-530-3933!" },
-    { name: "Amanda K.", location: "Westminster, CO", rating: 5, time: "5 months ago", text: "Had them install a beautiful wood fence around our property. The craftsmanship is top-notch and they finished on schedule. Very pleased with the results and would hire them again!" },
-    { name: "Robert P.", location: "Denver, CO", rating: 5, time: "6 months ago", text: "Great experience from start to finish. They installed decorative rock and mulch in our front yard. The transformation is amazing! Professional, friendly, and reasonably priced." },
-    { name: "Lisa M.", location: "Aurora, CO", rating: 5, time: "7 months ago", text: "We needed our sprinklers winterized and they were very responsive. Also scheduled us for spring aeration and fertilizer service. Excellent family-owned business!" },
-    { name: "David S.", location: "Thornton, CO", rating: 5, time: "8 months ago", text: "Lujan landscaping installed a concrete driveway for us. The quality is excellent and they were very professional throughout the entire process. Highly recommend for any concrete work!" },
-    { name: "Maria G.", location: "Denver, CO", rating: 5, time: "9 months ago", text: "They've been doing our lawn maintenance for months now and we couldn't be happier. Always on time, thorough, and our yard has never looked better. Great team!" },
-    { name: "James T.", location: "Westminster, CO", rating: 5, time: "10 months ago", text: "Fantastic work on our plant and tree installation. They helped us choose the right plants for our Colorado climate and everything is thriving. Very knowledgeable and professional!" }
+    { name: "P C.", location: "Ulm", rating: 5, time: "Vor 1 Monat", text: "Kontaktaufnahme erfolgte per Mail. Am nächsten Tag nahm Lorik telefonisch mit mir Kontakt auf. Besichtigungstermin und Durchführung erfolgte zuverlässig wie vereinbart. Top Arbeit. Super schnell und termintreu. Dazu noch sehr freundlich. Klasse Service. Alles tipptopp. Klare Empfehlung 🌿" },
+    { name: "Michael R.", location: "Neu-Ulm", rating: 5, time: "Vor 2 Monaten", text: "Habe sie für Pflasterarbeiten angerufen und sofort ein kostenloses Angebot erhalten. Die Arbeit wurde schnell erledigt und sieht fantastisch aus. Tolle Kommunikation während des gesamten Projekts!" },
+    { name: "Sarah T.", location: "Blaustein", rating: 5, time: "Vor 3 Monaten", text: "Wir haben Beni Garten für die regelmäßige Pflege engagiert und sie sind wunderbar. Vom Rasenmähen bis zum saisonalen Vertikutieren wird alles mit Sorgfalt erledigt. Es ist schön, mit einem Familienunternehmen zusammenzuarbeiten." },
+    { name: "David S.", location: "Senden", rating: 5, time: "Vor 5 Monaten", text: "Beni Garten und Grünanlagenpflege hat für uns Pflasterarbeiten durchgeführt. Die Qualität ist ausgezeichnet und sie waren während des gesamten Prozesses sehr professionell. Sehr zu empfehlen!" },
+    { name: "Lisa M.", location: "Erbach", rating: 5, time: "Vor 7 Monaten", text: "Wir brauchten Hilfe bei der Gartenpflege und sie waren sehr reaktionsschnell. Hervorragendes Familienunternehmen!" },
+    { name: "James T.", location: "Dornstadt", rating: 5, time: "Vor 10 Monaten", text: "Fantastische Arbeit bei unserer Pflanzen- und Bauminstallation. Sie haben uns geholfen, die richtigen Bodendecker zu wählen und alles gedeiht prächtig. Sehr kompetent und professionell!" }
   ];
 
   const itemsPerPage = 3;
@@ -1188,14 +1125,14 @@ const Testimonials = () => {
 const InteractiveMap = () => (
   <div className="w-full h-[300px] md:h-[500px] relative">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49346.36165023797!2d-104.99811584135742!3d39.76918107832147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78c4f2a89ae9%3A0xe7c9b5b5c1c3d8a!2sMartin%20Luther%20King%20Jr%20Blvd%2C%20Denver%2C%20CO%2080205!5e0!3m2!1sen!2sus!4v1706654400000!5m2!1sen!2sus"
+      src="https://www.google.com/maps?q=Schlehenbühl,+89075+Ulm,+Deutschland&output=embed"
       width="100%"
       height="100%"
       style={{ border: 0 }}
       allowFullScreen
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
-      title="Location in Denver, CO"
+      title="Standort in Ulm, Deutschland"
       className="transition-all duration-700"
     ></iframe>
   </div>
@@ -1221,9 +1158,9 @@ const PageHeader: React.FC<{ title: string; subtitle: string; image: string }> =
 const HomePage = () => (
   <>
     <SEOHead
-      title="Lujan landscaping – Professional Landscaping Services in Denver, CO"
-      description="Expert landscaping services in Denver, CO. We install plants, sod, mulch, rock, irrigation, and concrete. Serving Central Westminster, East Aurora, and surrounding areas. ✓ Free Consultation ✓ Quality Work ✓ Reliable Service. Request a quote today!"
-      keywords="landscaping Denver, landscape company Denver CO, plant installation Denver, sod installation Westminster, mulch services Aurora, irrigation systems Denver, concrete work Colorado, landscaping Westminster CO"
+      title="Beni Garten und Grünanlagenpflege – Professioneller Garten- und Landschaftsbau in Ulm"
+      description="Experten für Garten- und Landschaftsbau in Ulm und Umgebung. Wir bieten Pflasterarbeiten, Rasenverlegung, Pflanzungen, Baumpflege und vieles mehr. ✓ Kostenlose Beratung ✓ Hochwertige Arbeit ✓ Zuverlässiger Service."
+      keywords="Gartenbau Ulm, Landschaftsbau Ulm Umgebung, Pflasterarbeiten, Rasenverlegung Neu-Ulm, Baumpflege, Gartenpflege Ulm, Terrassenbau, Zaunbau"
     />
     <Hero />
     <ServicesSection />
@@ -1237,33 +1174,31 @@ const HomePage = () => (
 const ServicesPage = () => (
   <>
     <SEOHead
-      title="Our Services – Landscaping & Installation in Denver | Lujan landscaping"
-      description="Professional landscaping services in Denver and surrounding areas: ✓ Plant Installation ✓ Sod & Mulch ✓ Rock & Irrigation ✓ Concrete Work. Quality service at fair prices. Contact us today!"
-      keywords="plant installation Denver, sod installation Denver, mulch services Denver, irrigation Denver, concrete work Denver, landscaping services Colorado"
+      title="Unsere Dienstleistungen – Gartenbau in Ulm | Beni Garten"
+      description="Professionelle Landschaftsbau-Dienstleistungen in Ulm und Umgebung: ✓ Pflanzarbeiten ✓ Rasenverlegung ✓ Pflasterarbeiten ✓ Baumpflege. Qualität zu fairen Preisen. Kontaktieren Sie uns noch heute!"
+      keywords="Pflanzarbeiten Ulm, Rollrasen Ulm, Landschaftsbau der Region, Pflasterarbeiten Ulm"
     />
     <PageHeader
-      title="Our Services"
-      subtitle="Quality Craftsmanship"
+      title="Unsere Dienstleistungen"
+      subtitle="Handwerkliche Qualität"
       image="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=2000&auto=format&fit=crop&quot"
     />
     <ServicesSection />
     <section className="py-12 md:py-20 bg-earth-900 text-center text-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-serif mb-4 md:mb-6">Ready to Transform Your Outdoor Space?</h2>
-        <p className="text-gray-300 mb-4 text-sm md:text-base">We're a small family-owned landscaping company serving Colorado with complete services:</p>
+        <h2 className="text-2xl md:text-3xl font-serif mb-4 md:mb-6">Bereit, Ihren Außenbereich zu verändern?</h2>
+        <p className="text-gray-300 mb-4 text-sm md:text-base">Wir sind ein familiengeführtes Gartenbauunternehmen mit umfassenden Dienstleistungen:</p>
         <ul className="text-gray-300 text-sm md:text-base mb-6 md:mb-8 max-w-2xl mx-auto text-left space-y-2">
-          <li>✓ Installing pavers (hardscaping)</li>
-          <li>✓ Installing mulch/rock</li>
-          <li>✓ Concrete work</li>
-          <li>✓ Plant/Tree installation, trimming, or removal</li>
-          <li>✓ Wood fencing</li>
-          <li>✓ Maintenance (Mowing/clean-ups)</li>
-          <li>✓ Aeration with fertilizer</li>
-          <li>✓ Sprinkler winterization</li>
+          <li>✓ Pflasterarbeiten & Terrassenbau</li>
+          <li>✓ Rollrasen & Pflanzungen</li>
+          <li>✓ Baumpflege & Fällungen</li>
+          <li>✓ Zaunbau (Holz & Metall)</li>
+          <li>✓ Gartenpflege (Rasenmähen, Rückschnitt)</li>
+          <li>✓ Vertikutieren & Düngen</li>
         </ul>
-        <p className="text-gold-500 font-bold text-lg mb-6">Call or text: 720-530-3933</p>
+        <p className="text-gold-500 font-bold text-lg mb-6">Rufen Sie an: +49 174 8023038</p>
         <Link to={NavigationLinks.CONTACT} className="inline-block px-6 md:px-8 py-2 md:py-3 border border-gold-500 text-gold-500 hover:bg-gold-500 hover:text-earth-900 transition-colors uppercase tracking-widest font-bold text-sm md:text-base">
-          Get Free Quote
+          Kostenloses Angebot anfordern
         </Link>
       </div>
     </section>
@@ -1274,19 +1209,19 @@ const ServicesPage = () => (
 const ProjectsPage = () => (
   <>
     <SEOHead
-      title="Projects & Gallery – Landscaping Work in Denver | Lujan landscaping"
-      description="View our completed landscaping projects in Denver, Westminster, East Aurora and surrounding areas. ✓ Before-After Comparisons ✓ Plant Installations ✓ Sod & Irrigation ✓ Concrete Work. See our quality work!"
-      keywords="landscaping projects Denver, landscape gallery Denver, before after landscaping, project examples Denver, landscaping references Colorado"
+      title="Projekte & Galerie – Gartenbauarbeiten in Ulm | Beni Garten"
+      description="Sehen Sie sich unsere abgeschlossenen Gartenbauprojekte in Ulm, Neu-Ulm, Blaustein und der Umgebung an. ✓ Vorher-Nachher ✓ Pflanzungen ✓ Pflasterarbeiten."
+      keywords="Gartenbau Projekte Ulm, Landschaftsbau Galerie, Vorher Nachher Garten, Referenzen Gartenbau"
     />
     <PageHeader
-      title="Projects"
-      subtitle="Our Work & Results"
+      title="Projekte"
+      subtitle="Unsere Arbeit & Resultate"
       image="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=2000&auto=format&fit=crop&quot"
     />
     <ProjectsGallery />
     <div className="bg-stone-50 py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <p className="text-gray-500 italic text-sm md:text-base">Selected projects from 2020-2024</p>
+        <p className="text-gray-500 italic text-sm md:text-base">Ausgewählte Projekte der letzten Jahre</p>
       </div>
     </div>
   </>
@@ -1295,13 +1230,13 @@ const ProjectsPage = () => (
 const AboutPage = () => (
   <>
     <SEOHead
-      title="About Us – Your Denver Landscaping Company | Lujan landscaping"
-      description="Learn more about Lujan landscaping. Your reliable partner for landscaping in Denver and surrounding areas with professional service and guaranteed satisfaction."
-      keywords="landscape company Denver, Lujan landscaping, landscaping services Denver, professional landscapers Colorado"
+      title="Über Uns – Ihr Gartenbauunternehmen in Ulm | Beni Garten"
+      description="Erfahren Sie mehr über Beni Garten und Grünanlagenpflege. Ihr zuverlässiger Partner für Landschaftsbau in Ulm und Umgebung mit professionellem Service."
+      keywords="Gartenbauunternehmen Ulm, Beni Garten, Landschaftsbau Ulm, Landschaftsgärtner BW"
     />
     <PageHeader
-      title="About Us"
-      subtitle="Our Story"
+      title="Über Uns"
+      subtitle="Unsere Geschichte"
       image="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=2000&auto=format&fit=crop&quot"
     />
     <section className="py-16 md:py-24 bg-white relative overflow-hidden">
@@ -1324,17 +1259,17 @@ const AboutPage = () => (
               />
             </div>
             <div className="mt-4 md:mt-6 text-center">
-              <h4 className="text-xl md:text-2xl font-serif text-earth-900">Lujan landscaping</h4>
-              <p className="text-gold-500 text-xs md:text-sm font-bold uppercase tracking-widest">Family-Owned Landscaping Company</p>
+              <h4 className="text-xl md:text-2xl font-serif text-earth-900">Beni Garten und Grünanlagenpflege</h4>
+              <p className="text-gold-500 text-xs md:text-sm font-bold uppercase tracking-widest">Familiengeführtes Gartenbauunternehmen</p>
             </div>
           </div>
 
-          <h3 className="text-2xl md:text-3xl font-serif text-earth-900 mb-4 md:mb-6 text-center">Family-Owned Landscaping Excellence</h3>
+          <h3 className="text-2xl md:text-3xl font-serif text-earth-900 mb-4 md:mb-6 text-center">Familiengeführte Gartenbau-Exzellenz</h3>
           <p className="leading-loose text-gray-600 mb-4 md:mb-6 text-sm md:text-base">
-            We are a small family-owned landscaping company in Colorado, bringing dedication and quality craftsmanship to every project. Our comprehensive services include installing pavers (hardscaping), mulch and rock features, concrete work, plant and tree installation, trimming or removal, wood fencing, and regular maintenance including mowing and clean-ups.
+            Wir sind ein familiengeführtes Gartenbauunternehmen aus der Region Ulm, das Hingabe und handwerkliche Qualität in jedes Projekt einbringt. Unsere umfassenden Dienstleistungen umfassen Pflasterarbeiten, Rollrasenverlegung, Baumpflege und Fällungen, Zaunbau sowie die regelmäßige Grünanlagenpflege für private und gewerbliche Kunden.
           </p>
           <p className="leading-loose text-gray-600 mb-4 md:mb-6 text-sm md:text-base">
-            Whether you're interested in concrete installation, seasonal services like aeration with fertilizer, or having your sprinklers blown out for winter, we're here to help. Every project receives personalized attention and a commitment to excellence. If you're interested in any of our services, give us a call or text at 720-530-3933 for availability and a free quote!
+            Ob Sie an einer kompletten Neugestaltung Ihres Gartens oder nur an saisonalen Pflegearbeiten interessiert sind, wir sind für Sie da. Jedes Projekt erhält unsere persönliche Aufmerksamkeit. Wenn Sie an unseren Dienstleistungen interessiert sind, rufen Sie uns unter +49 174 8023038 an, um ein kostenloses Angebot zu erhalten!
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 py-8 md:py-12 text-center border-y border-gray-200 my-8 md:my-12">
@@ -1348,21 +1283,21 @@ const AboutPage = () => (
             </div>
             <div>
               <span className="block text-2xl md:text-4xl font-serif text-gold-500 mb-1 md:mb-2">100%</span>
-              <span className="text-xs uppercase tracking-widest text-gray-500">Customer Satisfaction</span>
+              <span className="text-xs uppercase tracking-widest text-gray-500">Kundenzufriedenheit</span>
             </div>
           </div>
 
           {/* Kontaktbereich */}
           <div className="bg-stone-50 p-6 md:p-8 rounded-lg mt-8 md:mt-12">
-            <h4 className="text-xl font-serif text-earth-900 mb-4 text-center">Contact</h4>
+            <h4 className="text-xl font-serif text-earth-900 mb-4 text-center">Kontakt</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
               <div>
                 <Phone className="w-6 h-6 text-gold-500 mx-auto mb-2" />
-                <a href="tel:+17205303933" className="text-earth-900 hover:text-gold-500 transition-colors font-bold">+1 720-530-3933</a>
+                <a href="tel:+491748023038" className="text-earth-900 hover:text-gold-500 transition-colors font-bold">+49 174 8023038</a>
               </div>
               <div>
                 <Send className="w-6 h-6 text-gold-500 mx-auto mb-2" />
-                <a href="mailto:lujanlandscapingllc@gmail.com" className="text-earth-900 hover:text-gold-500 transition-colors">lujanlandscapingllc@gmail.com</a>
+                <a href="mailto:beni-garten@gmail.com" className="text-earth-900 hover:text-gold-500 transition-colors">beni-garten@gmail.com</a>
               </div>
             </div>
           </div>
@@ -1376,12 +1311,12 @@ const AboutPage = () => (
 const ContactPage = () => (
   <>
     <PageMeta
-      title="Contact & Free Quote – Lujan landscaping"
-      description="Contact us for a free quote! Phone: +1 720-530-3933. We're happy to discuss your landscaping project in Denver and surrounding areas."
+      title="Kontakt & Kostenloses Angebot – Beni Garten"
+      description="Kontaktieren Sie uns für ein kostenloses Angebot! Telefon: +49 174 8023038. Wir freuen uns, Ihr Landschaftsprojekt in Ulm und Umgebung zu besprechen."
     />
     <PageHeader
-      title="Contact"
-      subtitle="Get In Touch"
+      title="Kontakt"
+      subtitle="Melden Sie sich"
       image="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?q=80&w=2000&auto=format&fit=crop&quot"
     />
 
@@ -1392,7 +1327,7 @@ const ContactPage = () => (
           {/* Kontaktinformationen */}
           <div>
             <RevealOnScroll>
-              <SectionTitle subtitle="contact us" title="Your Request" align="left" />
+              <SectionTitle subtitle="Kontakt aufnehmen" title="Ihre Anfrage" align="left" />
             </RevealOnScroll>
 
             <div className="space-y-6 md:space-y-8">
@@ -1400,7 +1335,7 @@ const ContactPage = () => (
                 <MapPin className="text-gold-500 mt-1 mr-4 shrink-0" size={24} />
                 <div>
                   <h4 className="font-serif text-lg text-earth-900 mb-2">Our Service Area</h4>
-                  <p className="text-gray-600">Serving Denver, CO and surrounding areas<br />Central Westminster, East Aurora, and more</p>
+                  <p className="text-gray-600">Wir bedienen Ulm, Neu-Ulm<br />und umgebende Ortschaften wie Blaustein und Dornstadt.</p>
                 </div>
               </div>
 
@@ -1408,7 +1343,7 @@ const ContactPage = () => (
                 <Phone className="text-gold-500 mt-1 mr-4 shrink-0" size={24} />
                 <div>
                   <h4 className="font-serif text-lg text-earth-900 mb-2">Phone</h4>
-                  <a href="tel:+17205303933" className="text-earth-900 hover:text-gold-500 transition-colors font-bold text-lg">720-530-3933</a>
+                  <a href="tel:++49 174 802 3038" className="text-earth-900 hover:text-gold-500 transition-colors font-bold text-lg">174 802 3038</a>
                   <p className="text-gray-600 text-sm mt-1">Call or text for a free quote!</p>
                 </div>
               </div>
@@ -1417,7 +1352,7 @@ const ContactPage = () => (
                 <Send className="text-gold-500 mt-1 mr-4 shrink-0" size={24} />
                 <div>
                   <h4 className="font-serif text-lg text-earth-900 mb-2">Email</h4>
-                  <a href="mailto:lujanlandscapingllc@gmail.com" className="text-earth-900 hover:text-gold-500 transition-colors">lujanlandscapingllc@gmail.com</a>
+                  <a href="mailto:beni-garten@gmail.com" className="text-earth-900 hover:text-gold-500 transition-colors">beni-garten@gmail.com</a>
                 </div>
               </div>
 
@@ -1426,8 +1361,8 @@ const ContactPage = () => (
                 <h4 className="font-serif text-lg text-earth-900 mb-4">Follow us</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://www.facebook.com/profile.php?id=61579944943986"
-                    target="_blank"
+                    href=" "
+                    target="_parent"
                     rel="noopener noreferrer"
                     className="bg-earth-900 text-white p-3 rounded-full hover:bg-gold-500 transition-colors"
                   >
@@ -1459,9 +1394,9 @@ const ContactPage = () => (
 const BlogListPage = () => (
   <>
     <SEOHead
-      title="Garten-Ratgeber & Blog – Tipps vom Profi | Luan Allround Service Kuppenheim"
-      description="Wertvolle Tipps zur Gartenpflege, Zaunbau-Ratgeber und Einblicke in unsere tägliche Arbeit in Kuppenheim. ✓ Praktische Anleitungen ✓ Vorher-Nachher-Projekte ✓ Expertenwissen. Bleiben Sie informiert!"
-      keywords="Gartenpflege Tipps, Zaunbau Ratgeber, Gartenbau Blog, Landschaftsbau Tipps Kuppenheim, Rasen pflegen, Hecke schneiden Anleitung, Garten Ratgeber Baden-Württemberg"
+      title="Garten-Ratgeber & Blog – Tipps vom Profi | Beni Garten Ulm"
+      description="Wertvolle Tipps zur Gartenpflege, Zaunbau-Ratgeber und Einblicke in unsere tägliche Arbeit. ✓ Praktische Anleitungen ✓ Vorher-Nachher-Projekte ✓ Expertenwissen."
+      keywords="Gartenpflege Tipps, Zaunbau Ratgeber, Gartenbau Blog, Landschaftsbau Tipps Ulm, Rasen pflegen"
     />
     <PageHeader
       title="Blog & Ratgeber"
@@ -1487,7 +1422,7 @@ const BlogListPage = () => (
               <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 cursor-default">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src={post.image}
+                    src={String(post.image)}
                     alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -1532,27 +1467,27 @@ const BlogPostPage = () => {
   return (
     <>
       <SEOHead
-        title={`${post.title} – Gartenbau Blog | Luan Allround Service`}
+        title={`${post.title} – Gartenbau Blog | Beni Garten`}
         description={post.excerpt}
-        keywords={`${post.title}, Gartenbau Kuppenheim, Landschaftsbau Tipps, ${post.slug}`}
-        ogImage={`https://www.luan-allround-service.de${post.image}`}
+        keywords={`${post.title}, Gartenbau Ulm, Landschaftsbau Tipps, ${post.slug}`}
+        ogImage={`https://beni-garten.de${post.image}`}
         schema={{
           "@context": "https://schema.org",
           "@type": "BlogPosting",
           "headline": post.title,
           "description": post.excerpt,
-          "image": `https://www.luan-allround-service.de${post.image}`,
+          "image": `https://beni-garten.de${post.image}`,
           "datePublished": post.date,
           "author": {
             "@type": "Organization",
-            "name": "Luan Allround Service"
+            "name": "Beni Garten und Grünanlagenpflege"
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Luan Allround Service",
+            "name": "Beni Garten und Grünanlagenpflege",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.luan-allround-service.de/images/logo.png"
+              "url": "https://beni-garten.de/images/logo.png"
             }
           }
         }}
@@ -1683,7 +1618,7 @@ const BlogPostPage = () => {
             <div className="mt-16 md:mt-20 p-8 md:p-12 bg-earth-900 text-white text-center rounded-lg">
               <h3 className="text-2xl md:text-3xl font-serif mb-4">Haben Sie Fragen oder möchten Sie ein Projekt starten?</h3>
               <p className="text-gray-300 mb-6 md:mb-8">
-                Als Ihr lokaler Landschaftsgärtner in Kuppenheim, Rastatt, Baden-Baden und Karlsruhe stehe ich Ihnen mit Rat und Tat zur Seite.
+                Als Ihr lokaler Landschaftsgärtner in Ulm, Neu-Ulm, Blaustein und Dornstadt stehe ich Ihnen mit Rat und Tat zur Seite.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a href="tel:+4917647999118" className="inline-flex items-center px-8 py-4 bg-gold-500 hover:bg-gold-600 text-earth-900 font-bold uppercase tracking-widest transition-colors">
@@ -1696,8 +1631,8 @@ const BlogPostPage = () => {
               </div>
               <p className="mt-6 text-sm text-gray-400">
                 Ihr Memedali Limani<br />
-                Luan Allround Service<br />
-                Friedrichstraße 100, 76456 Kuppenheim
+                Beni Garten und Grünanlagenpflege<br />
+                Friedrichstraße 100, 76456 Ulm
               </p>
             </div>
           </RevealOnScroll>
@@ -1720,9 +1655,9 @@ const FullGalleryPage = () => {
 
   // SEO effect
   useEffect(() => {
-    document.title = "Galerie – Unsere Arbeit in Bildern | Luan Allround Service";
+    document.title = "Galerie – Unsere Arbeit in Bildern | Beni Garten und Grünanlagenpflege";
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', "Stöbern Sie durch unsere Bildergalerie: Zaunbau, Gartengestaltung, Vorher-Nachher Bilder und mehr aus Kuppenheim und Umgebung.");
+    if (metaDesc) metaDesc.setAttribute('content', "Stöbern Sie durch unsere Bildergalerie: Zaunbau, Gartengestaltung, Vorher-Nachher Bilder und mehr aus Ulm und Umgebung.");
   }, []);
 
   const allGalleryImages: ProjectImage[] = [
@@ -1859,7 +1794,7 @@ const FullGalleryPage = () => {
             <div className="max-w-3xl">
               <h3 className="text-2xl md:text-3xl font-serif text-earth-900 mb-4">Get Inspired</h3>
               <p className="text-gray-600 text-base md:text-lg mb-6 leading-relaxed">
-                Every project in this gallery showcases our commitment to quality craftsmanship and beautiful design. From custom pavers and hardscaping to lush plant installations and professional concrete work – discover the possibilities for transforming your outdoor space in Denver and surrounding areas.
+                Jedes Projekt in dieser Galerie verdeutlicht unser Engagement für handwerkliche Qualität und ästhetische Gestaltung. Von individuellen Pflasterarbeiten und Terrassen bis hin zu üppigen Pflanzenarrangements und professionellen Holzarbeiten – entdecken Sie die Möglichkeiten zur Aufwertung Ihres Außenbereichs in Ulm und Umgebung.
               </p>
               <Link to={NavigationLinks.CONTACT} className="inline-block px-8 py-3 bg-earth-900 text-white font-bold uppercase tracking-widest hover:bg-gold-500 hover:text-earth-900 transition-colors rounded-lg">
                 Request A Consultation
@@ -2005,7 +1940,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router basename="/Lujan-landscaping/">
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
 
       <div className="flex flex-col min-h-screen overflow-x-hidden font-sans text-earth-900 selection:bg-gold-500 selection:text-white bg-stone-50">
@@ -2057,7 +1992,7 @@ const App = () => {
           </div>
 
           <a
-            href="https://wa.me/17205303933"
+            href="https://wa.me/491748023038"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform pointer-events-auto relative group"

@@ -32,20 +32,20 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
         const locationSchema = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": `https://lujanlandscaping.com/locations/${location.slug || location.city.toLowerCase()}#localbusiness`,
-            "name": `Lujan landscaping - ${location.city}`,
-            "description": `Professional landscaping and hardscaping in ${location.city}. Plants, sod, mulch, rock, irrigation, and concrete. Your local partner for outdoor living.`,
-            "image": "https://lujanlandscaping.com/images/logo.png",
-            "telephone": "+17205303933",
-            "email": "lujanlandscapingllc@gmail.com",
-            "url": `https://lujanlandscaping.com/locations/${location.slug || location.city.toLowerCase()}`,
+            "@id": `https://beni-garten.de/locations/${location.slug || location.city.toLowerCase()}#localbusiness`,
+            "name": `Beni Garten und Grünanlagenpflege - ${location.city}`,
+            "description": `Garten- & Landschaftsbau in ${location.city}. Ihr lokaler Partner für Außenanlagen.`,
+            "image": "https://beni-garten.de/images/logo.png",
+            "telephone": "+491748023038",
+            "email": "beni-garten@gmail.com",
+            "url": `https://beni-garten.de/locations/${location.slug || location.city.toLowerCase()}`,
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Martin Luther King Jr. Blvd",
-                "addressLocality": location.city,
-                "postalCode": location.postalCode,
-                "addressRegion": location.region,
-                "addressCountry": "US"
+                "streetAddress": "Schlehenbühl",
+                "addressLocality": "Ulm",
+                "postalCode": "89075",
+                "addressRegion": "Baden-Württemberg",
+                "addressCountry": "DE"
             },
             "geo": location.latitude && location.longitude ? {
                 "@type": "GeoCoordinates",
@@ -73,7 +73,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
             "priceRange": "$$",
             "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": `Landscaping Services in ${location.city}`,
+                "name": `Dienstleistungen in ${location.city}`,
                 "itemListElement": location.services.slice(0, 4).map((service, index) => ({
                     "@type": "Offer",
                     "itemOffered": {
@@ -85,8 +85,8 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
             },
             "parentOrganization": {
                 "@type": "Organization",
-                "@id": "https://lujanlandscaping.com/#organization",
-                "name": "Lujan landscaping"
+                "@id": "https://beni-garten.de/#organization",
+                "name": "Beni Garten und Grünanlagenpflege"
             }
         };
 
@@ -116,17 +116,17 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
         <div className="min-h-screen bg-stone-50">
             {/* SEO Head */}
             <SEOHead
-                title={`Landscaping & Hardscaping ${location.city} | Lujan landscaping ⭐ Professional Services`}
-                description={`Expert landscaping and hardscaping in ${location.city}. Concrete, pavers, plant installation, mulch, and more. Free Quote: 720-530-3933. ${location.description}`}
-                keywords={`landscaping ${location.city}, hardscaping ${location.city}, concrete ${location.city}, sprinkler service ${location.city}, pavers ${location.city}, yard maintenance ${location.city}, Aurora Denver landscaping, Westminster yard services`}
-                canonical={`https://lujanlandscaping.com/locations/${citySlug}`}
+                title={`Garten- & Landschaftsbau ${location.city} | Beni Garten ⭐ Professionelle Dienstleistungen`}
+                description={`Experten für Landschaftsbau in ${location.city}. Kostenloses Angebot: +49 174 8023038. ${location.description}`}
+                keywords={`Gartenbau ${location.city}, Landschaftsbau ${location.city}, Pflege ${location.city}`}
+                canonical={`https://beni-garten.de/locations/${citySlug}`}
             />
 
             {/* Breadcrumb Schema */}
             <BreadcrumbSchema
                 items={[
-                    { name: 'Home', url: '/' },
-                    { name: 'Locations', url: '/locations' },
+                    { name: 'Startseite', url: '/' },
+                    { name: 'Standorte', url: '/locations' },
                     { name: location.city, url: `/locations/${citySlug}` }
                 ]}
             />
@@ -147,11 +147,11 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                         <div className="flex items-center justify-center gap-2 mb-6">
                             <MapPin className="w-6 h-6 text-gold-500" />
                             <span className="text-gold-500 font-bold tracking-[0.3em] uppercase text-sm">
-                                Your Local Landscaping Partner
+                                Ihr lokaler Partner für Gartenbau
                             </span>
                         </div>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif mb-6">
-                            Landscaping & Hardscaping in{' '}
+                            Garten- & Landschaftsbau in{' '}
                             <span className="text-gold-400 italic">{location.city}</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -159,18 +159,18 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-                            <a
-                                href="tel:+17205303933"
+                                <a
+                                href="tel:+491748023038"
                                 className="inline-flex items-center justify-center px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-bold uppercase tracking-wider transition-all shadow-xl hover:-translate-y-1"
                             >
                                 <Phone className="mr-2 h-5 w-5" />
-                                Call Now
+                                Jetzt Anrufen
                             </a>
                             <Link
                                 to="/contact"
                                 className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white hover:bg-white hover:text-earth-900 text-white font-bold uppercase tracking-wider transition-all"
                             >
-                                Free Consultation
+                                Kostenlose Beratung
                             </Link>
                         </div>
                     </div>
@@ -182,10 +182,10 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <span className="text-gold-500 font-bold tracking-[0.2em] text-xs uppercase mb-3 block">
-                            Our Services
+                            Unsere Dienstleistungen
                         </span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-earth-900">
-                            Landscaping & Hardscaping in {location.city}
+                            Garten- & Landschaftsbau in {location.city}
                         </h2>
                     </div>
 
@@ -208,7 +208,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                             to="/services"
                             className="inline-flex items-center text-gold-500 hover:text-earth-900 font-bold uppercase tracking-wider transition-colors border-b-2 border-gold-500 pb-1"
                         >
-                            View All Services
+                            Alle Dienstleistungen anzeigen
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>
                     </div>
@@ -221,23 +221,20 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
                             <span className="text-gold-500 font-bold tracking-[0.2em] text-xs uppercase mb-3 block">
-                                Local Expertise
+                                Lokale Expertise
                             </span>
                             <h2 className="text-3xl md:text-4xl font-serif text-earth-900 mb-6">
-                                Your Landscape Experts in {location.city}
+                                Ihre Gartenexperten in {location.city}
                             </h2>
                             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                                As your local landscaping partner in {location.city} and {location.region},{' '}
-                                we understand the unique climate and soil conditions of the area.
-                                From selecting the right plants to proper drainage and high-quality hardscaping,
-                                we know what your yard needs to thrive. Whether it's <strong>concrete work</strong>,
-                                <strong> pavers</strong>, or <strong>maintenance</strong> – we deliver excellence.
+                                Als Ihr lokaler Partner für Landschaftsbau in {location.city} und {location.region},{' '}
+                                verstehen wir das regionale Klima und die Bodenverhältnisse. Von der Auswahl der richtigen Pflanzen bis hin zur hochwertigen Bauausführung – wir wissen, was Ihr Garten braucht, um aufzublühen.
                             </p>
 
                             {location.landmarks.length > 0 && (
                                 <div className="mb-8">
                                     <h3 className="text-xl font-serif text-earth-900 mb-4">
-                                        Serving your neighborhood:
+                                        Wir bedienen Ihre Nachbarschaft:
                                     </h3>
                                     <ul className="space-y-2">
                                         {location.landmarks.map((landmark, index) => (
@@ -254,11 +251,11 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                                 <Clock className="w-8 h-8 text-gold-500 shrink-0" />
                                 void
                                 <div>
-                                    <h4 className="font-bold text-lg mb-2">Business Hours</h4>
+                                    <h4 className="font-bold text-lg mb-2">Öffnungszeiten</h4>
                                     <p className="text-gray-300">
-                                        Mon-Fri: 08:00 AM - 06:00 PM
+                                        Mo-Fr: 08:00 - 18:00
                                         <br />
-                                        Sat: 08:00 AM - 02:00 PM
+                                        Sa: 08:00 - 14:00
                                     </p>
                                 </div>
                             </div>
@@ -275,7 +272,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
                                     className="w-full h-full"
-                                    title={`Map of ${location.city} - Lujan landscaping service area`}
+                                    title={`Karte von ${location.city} - Beni Garten und Grünanlagenpflege Einsatzgebiet`}
                                 ></iframe>
                             </div>
                         </div>
@@ -306,24 +303,24 @@ const LocationPage: React.FC<LocationPageProps> = ({ location }) => {
             <section className="py-16 md:py-24 bg-earth-900 text-white">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl md:text-5xl font-serif mb-6">
-                        Ready for your dream landscape in {location.city}?
+                        Bereit für Ihre Traumlandschaft in {location.city}?
                     </h2>
                     <p className="text-xl text-gray-300 mb-10">
-                        Contact us for a free consultation and a non-binding offer. We look forward to your project!
+                        Kontaktieren Sie uns für eine kostenlose Beratung und ein unverbindliches Angebot. Wir freuen uns auf Ihr Projekt!
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
-                            href="tel:+17205303933"
+                            href="tel:+491748023038"
                             className="inline-flex items-center justify-center px-10 py-4 bg-gold-500 hover:bg-gold-600 text-white font-bold uppercase tracking-wider transition-all shadow-xl hover:-translate-y-1"
                         >
                             <Phone className="mr-2 h-5 w-5" />
-                            +1 720-530-3933
+                            +49 174 8023038
                         </a>
                         <Link
                             to="/contact"
                             className="inline-flex items-center justify-center px-10 py-4 bg-transparent border-2 border-white hover:bg-white hover:text-earth-900 text-white font-bold uppercase tracking-wider transition-all"
                         >
-                            Contact Form
+                            Kontaktformular
                         </Link>
                     </div>
                 </div>
